@@ -1,0 +1,24 @@
+{
+  "_fv": 8,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "szkolna_item_03",
+    "customModelName": "Normal",
+    "name": "Kabab",
+    "specialInfo": [
+      "Pszny kabab ogu³em"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:Szkolna17Mod"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 10,
+    "saturation": 5.0,
+    "eatingSpeed": 64,
+    "forDogs": true,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "facing=south": {
+      "model": "szkolna17:block/nitro_log"
+    },
+    "facing=north": {
+      "model": "szkolna17:block/nitro_log"
+    },
+    "facing=east": {
+      "model": "szkolna17:block/nitro_log",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "szkolna17:block/nitro_log",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "szkolna17:block/nitro_log",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "szkolna17:block/nitro_log",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

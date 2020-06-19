@@ -1,0 +1,26 @@
+{
+  "group": "szkolna17",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:potato"
+    },
+    "3": {
+      "item": "szkolna17:lisc_kapusty"
+    },
+    "4": {
+      "item": "minecraft:bowl"
+    },
+    "5": {
+      "item": "szkolna17:lisc_kapusty"
+    }
+  },
+  "result": {
+    "item": "szkolna17:kapusniaczek",
+    "count": 1
+  }
+}

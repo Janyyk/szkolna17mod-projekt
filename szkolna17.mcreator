@@ -1,0 +1,753 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Karton",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "karton"
+    },
+    {
+      "name": "Mleko",
+      "type": "food",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mleko"
+    },
+    {
+      "name": "CraftingMleko",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crafting_mleko"
+    },
+    {
+      "name": "Szkolna17Mod",
+      "type": "tab",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "szkolna_1_7_mod"
+    },
+    {
+      "name": "WypicieMleka",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wypicie_mleka",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Opal",
+      "type": "fuel",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opal"
+    },
+    {
+      "name": "Azbest",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "azbest"
+    },
+    {
+      "name": "BlokAzbestu",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blok_azbestu"
+    },
+    {
+      "name": "AzbestWykopanie",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "azbest_wykopanie",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AzbestwReku",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "azbestw_reku",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CraftingBlokAzbestu",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crafting_blok_azbestu"
+    },
+    {
+      "name": "KononArmorHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "konon_armor_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KononArmorBodyTickEvent",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "konon_armor_body_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KononArmorLeggingsTickEvent",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "konon_armor_leggings_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KononArmorBootsTickEvent",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "konon_armor_boots_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KononArmor",
+      "type": "armor",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "konon_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "AzbestOre",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "azbest_ore"
+    },
+    {
+      "name": "CraftingKarton",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crafting_karton"
+    },
+    {
+      "name": "CraftingAzbest",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crafting_azbest"
+    },
+    {
+      "name": "AzbestPolblock",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "azbest_polblock"
+    },
+    {
+      "name": "CraftingAzbestPolblock",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crafting_azbest_polblock"
+    },
+    {
+      "name": "CraftingAzbesPolblockSecond",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crafting_azbes_polblock_second"
+    },
+    {
+      "name": "KubekBulletHitsBlock",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kubek_bullet_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Kubek",
+      "type": "gun",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kubek"
+    },
+    {
+      "name": "CraftingKubek",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crafting_kubek"
+    },
+    {
+      "name": "CraftingAzbestSchody",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crafting_azbest_schody"
+    },
+    {
+      "name": "AzbestSchody",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "azbest_schody"
+    },
+    {
+      "name": "CraftingKapusniaczek",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crafting_kapusniaczek"
+    },
+    {
+      "name": "Kabab",
+      "type": "food",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kabab"
+    },
+    {
+      "name": "KapusniaczekZKababem",
+      "type": "food",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kapusniaczek_z_kababem"
+    },
+    {
+      "name": "CraftingKabab",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crafting_kabab"
+    },
+    {
+      "name": "Kapusniaczek",
+      "type": "food",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kapusniaczek"
+    },
+    {
+      "name": "CraftingKapusniaczekZKababem",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crafting_kapusniaczek_z_kababem"
+    },
+    {
+      "name": "Kapusta",
+      "type": "plant",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kapusta"
+    },
+    {
+      "name": "WypicieNitra",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wypicie_nitra",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Nitro",
+      "type": "food",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nitro"
+    },
+    {
+      "name": "NitroWypite",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nitro_wypite"
+    },
+    {
+      "name": "OplanieAzbestem",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oplanie_azbestem",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "AzbestOpalanie",
+      "type": "fuel",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "azbest_opalanie"
+    },
+    {
+      "name": "Zubr",
+      "type": "food",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zubr"
+    },
+    {
+      "name": "SranieCommandExecuted",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sranie_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ZubrFoodEaten",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zubr_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Kal",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kal"
+    },
+    {
+      "name": "Sranie",
+      "type": "command",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sranie"
+    },
+    {
+      "name": "TwojePierwszeNitro",
+      "type": "achievement",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "twoje_pierwsze_nitro"
+    },
+    {
+      "name": "ProblemyZeZwieraczami",
+      "type": "achievement",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "problemy_ze_zwieraczami"
+    },
+    {
+      "name": "NitroCiecz",
+      "type": "fluid",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nitro_ciecz"
+    },
+    {
+      "name": "MoczCiecz",
+      "type": "fluid",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mocz_ciecz"
+    },
+    {
+      "name": "LiscKapusty",
+      "type": "item",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lisc_kapusty"
+    },
+    {
+      "name": "KapusniaczekZKababemItemIsCraftedsmelted",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kapusniaczek_z_kababem_item_is_craftedsmelted",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BombaskiKucharz",
+      "type": "achievement",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bombaski_kucharz"
+    },
+    {
+      "name": "MaczetaBoza",
+      "type": "tool",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "maczeta_boza"
+    },
+    {
+      "name": "NitroBlock",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nitro_block"
+    },
+    {
+      "name": "NitroBiom",
+      "type": "biome",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nitro_biom"
+    },
+    {
+      "name": "NitroWorld",
+      "type": "dimension",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nitro_world"
+    },
+    {
+      "name": "NitroLog",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nitro_log"
+    },
+    {
+      "name": "NitroFruit",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nitro_fruit"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.szkolna__mod_20.konon_armorhelmet": "Czo³ówka Górnika",
+      "item.szkolna__mod_20.nitro_landia": "Nitro Landia Portal Igniter",
+      "block.szkolna__mod_20.kapusta": "Kapusta",
+      "item.szkolna17.karton": "Karton",
+      "item.szkolna17.kal": "Ka³",
+      "item.szkolna__mod_20.karton": "Karton",
+      "item.szkolna17.nitro_world": "Nitro World Portal Igniter",
+      "item.szkolna17.konon_armorlegs": "Obszczane Nachy",
+      "item.szkolna17.konon_armorbody": "Sweter Prezydencki",
+      "block.szkolna__mod_20.azbest_schody": "Azbestowe Schody",
+      "block.szkolna__mod_20.azbest_polblock": "Azbestowa P³yta",
+      "item.szkolna17.nitro_wypite": "Butelka Nitro",
+      "item.szkolna17.maczeta_boza": "Maczeta Boza",
+      "item.szkolna17.lisc_kapusty": "Lisc Kapusty",
+      "item.szkolna__mod_20.maczeta_boza": "Maczeta Boza",
+      "item.szkolna17.nitro": "Nitro",
+      "item.szkolna__mod_20.kal": "Ka³",
+      "advancements.twoje_pierwsze_nitro.title": "Twoje Pierwsze Nitro",
+      "item.szkolna17.kabab": "Kabab",
+      "item.szkolna__mod_20.zubr": "¯ubr",
+      "fluid.mocz_ciecz": "MoczCiecz",
+      "item.szkolna17.kubek": "Kubek",
+      "block.szkolna17.nitro_fruit": "Nitro Fruit",
+      "advancements.bombaski_kucharz.title": "Bombaski Kucharz",
+      "item.szkolna__mod_20.nitro": "Nitro",
+      "advancements.problemy_ze_zwieraczami.descr": "Zesra³eœ siê w majtki",
+      "block.szkolna__mod_20.azbest_ore": "Ruda Azbestu",
+      "fluid.nitro_ciecz": "NitroCiecz",
+      "block.szkolna17.kapusta": "Kapusta",
+      "item.szkolna17.nitro_ciecz_bucket": "NitroCiecz Bucket",
+      "item.szkolna__mod_20.kabab": "Kabab",
+      "item.szkolna__mod_20.mleko": "Mleko",
+      "block.szkolna17.nitro_log": "Nitrowe Drewno",
+      "item.szkolna__mod_20.azbest": "Azbest",
+      "item.szkolna__mod_20.nitro_wypite": "Butelka Nitro",
+      "block.szkolna__mod_20.blok_azbestu": "Blok Azbestu",
+      "item.szkolna17.kapusniaczek": "Kapusniaczek",
+      "block.szkolna17.azbest_schody": "Azbestowe Schody",
+      "block.szkolna17.azbest_ore": "Ruda Azbestu",
+      "item.szkolna__mod_20.lisc_kapusty": "Lisc Kapusty",
+      "item.szkolna17.konon_armorboots": "Gumioki",
+      "block.szkolna17.blok_azbestu": "Blok Azbestu",
+      "item.szkolna__mod_20.kubek": "Kubek",
+      "item.szkolna17.konon_armorhelmet": "Czo³ówka Górnika",
+      "item.szkolna__mod_20.mocz_ciecz_bucket": "MoczCiecz Bucket",
+      "block.szkolna17.nitro_block": "Blok Swiata Nitro",
+      "item.szkolna17.mleko": "Mleko",
+      "advancements.twoje_pierwsze_nitro.descr": "Wyprawa na wiewiórki udana",
+      "item.szkolna__mod_20.kapusniaczek_z_kababem": "Kapusniaczek Z Kababem",
+      "itemGroup.tabszkolna_1_7_mod": "Szkolna 17",
+      "item.szkolna17.zubr": "¯ubr",
+      "block.szkolna17.azbest_polblock": "Azbestowa P³yta",
+      "item.szkolna__mod_20.nitro_ciecz_bucket": "NitroCiecz Bucket",
+      "item.szkolna__mod_20.kapusniaczek": "Kapusniaczek",
+      "item.szkolna17.mocz_ciecz_bucket": "MoczCiecz Bucket",
+      "item.szkolna__mod_20.konon_armorbody": "Sweter Prezydencki",
+      "item.szkolna__mod_20.konon_armorlegs": "Obszczane Nachy",
+      "item.szkolna17.azbest": "Azbest",
+      "advancements.problemy_ze_zwieraczami.title": "Problemy Ze Zwieraczami",
+      "item.szkolna17.kapusniaczek_z_kababem": "Kapusniaczek Z Kababem",
+      "advancements.bombaski_kucharz.descr": "Pozna³eœ technikê tuszenia",
+      "item.szkolna__mod_20.konon_armorboots": "Gumioki"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "szkolna17",
+    "modName": "Szkolna 17 Mod",
+    "version": "1.0.0",
+    "author": "janek, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.aurora.szkolna17",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000322116
+}

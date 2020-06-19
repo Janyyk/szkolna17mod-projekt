@@ -1,0 +1,24 @@
+{
+  "_fv": 8,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "szkolna_item_05",
+    "customModelName": "Normal",
+    "name": "Kapusniaczek",
+    "specialInfo": [
+      "Dobry z kapustkom"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:Szkolna17Mod"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 6,
+    "saturation": 5.0,
+    "eatingSpeed": 60,
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false
+  }
+}

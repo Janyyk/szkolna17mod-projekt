@@ -1,0 +1,9 @@
+{
+  "group": "szkolna17",
+  "type": "minecraft:stonecutting",
+  "count": 6,
+  "ingredient": {
+    "item": "szkolna17:blok_azbestu"
+  },
+  "result": "szkolna17:azbest_polblock"
+}

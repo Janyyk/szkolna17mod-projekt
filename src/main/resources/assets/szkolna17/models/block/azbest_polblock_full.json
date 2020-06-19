@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "szkolna17:blocks/azbest2",
+    "particle": "szkolna17:blocks/azbest2"
+  }
+}

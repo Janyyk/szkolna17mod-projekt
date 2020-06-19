@@ -1,0 +1,25 @@
+{
+  "_fv": 8,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "szkolna_item_01",
+    "customModelName": "Normal",
+    "name": "Mleko",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Szkolna17Mod"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatingSpeed": 32,
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "drink",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "WypicieMleka"
+    }
+  }
+}

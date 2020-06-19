@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "szkolna17:blocks/nitro_fruit_top",
+    "up": "szkolna17:blocks/nitro_fruit_top",
+    "north": "szkolna17:blocks/nitro_fruit",
+    "east": "szkolna17:blocks/nitro_fruit",
+    "south": "szkolna17:blocks/nitro_fruit",
+    "west": "szkolna17:blocks/nitro_fruit",
+    "particle": "szkolna17:blocks/nitro_fruit_top"
+  }
+}

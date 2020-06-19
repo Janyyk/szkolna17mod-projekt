@@ -1,0 +1,16 @@
+{
+  "group": "szkolna17",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "szkolna17:kabab"
+    },
+    {
+      "item": "szkolna17:kapusniaczek"
+    }
+  ],
+  "result": {
+    "item": "szkolna17:kapusniaczek_z_kababem",
+    "count": 1
+  }
+}

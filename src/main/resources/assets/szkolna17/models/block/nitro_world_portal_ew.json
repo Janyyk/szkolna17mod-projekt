@@ -1,0 +1,40 @@
+{
+  "textures": {
+    "particle": "szkolna17:blocks/nitro_still_final",
+    "portal": "szkolna17:blocks/nitro_still_final"
+  },
+  "elements": [
+    {
+      "from": [
+        6,
+        0,
+        0
+      ],
+      "to": [
+        10,
+        16,
+        16
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#portal"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#portal"
+        }
+      }
+    }
+  ]
+}

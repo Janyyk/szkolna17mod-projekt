@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "szkolna17:block/azbest_polblock"
+    },
+    "type=top": {
+      "model": "szkolna17:block/azbest_polblock_top"
+    },
+    "type=double": {
+      "model": "szkolna17:block/azbest_polblock_full"
+    }
+  }
+}

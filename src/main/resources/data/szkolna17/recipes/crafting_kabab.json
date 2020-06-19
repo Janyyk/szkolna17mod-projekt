@@ -1,0 +1,26 @@
+{
+  "group": "szkolna17",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:cooked_mutton"
+    },
+    "3": {
+      "item": "minecraft:potato"
+    },
+    "4": {
+      "item": "minecraft:bread"
+    },
+    "5": {
+      "item": "minecraft:carrot"
+    }
+  },
+  "result": {
+    "item": "szkolna17:kabab",
+    "count": 1
+  }
+}

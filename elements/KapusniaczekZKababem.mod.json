@@ -1,0 +1,27 @@
+{
+  "_fv": 8,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "szkolna_item_06",
+    "customModelName": "Normal",
+    "name": "Kapusniaczek Z Kababem",
+    "specialInfo": [
+      "Piêknie utuszony"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:Szkolna17Mod"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 18,
+    "saturation": 10.0,
+    "eatingSpeed": 80,
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false,
+    "onCrafted": {
+      "name": "KapusniaczekZKababemItemIsCraftedsmelted"
+    }
+  }
+}

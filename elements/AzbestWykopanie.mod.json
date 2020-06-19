@@ -1,0 +1,7 @@
+{
+  "_fv": 8,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"event_trigger\" deletable=\"false\" x=\"93\" y=\"-33\"><field name=\"trigger\">No additional trigger</field><next><block type=\"controls_if\"><mutation else=\"1\"/><value name=\"IF0\"><block type=\"entity_has_item_inventory\"><value name=\"entity\"><block type=\"entity_from_deps\"/></value><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:Mleko</field></block></value></block></value><statement name=\"DO0\"><block type=\"controls_while\"/></statement><statement name=\"ELSE\"><block type=\"entity_add_potion\"><field name=\"potion\">POISON</field><value name=\"level\"><block type=\"math_number\"><field name=\"NUM\">0</field></block></value><value name=\"duration\"><block type=\"math_number\"><field name=\"NUM\">250</field></block></value><value name=\"entity\"><block type=\"entity_from_deps\"/></value><next><block type=\"entity_add_potion\"><field name=\"potion\">NAUSEA</field><value name=\"level\"><block type=\"math_number\"><field name=\"NUM\">0</field></block></value><value name=\"duration\"><block type=\"math_number\"><field name=\"NUM\">250</field></block></value><value name=\"entity\"><block type=\"entity_from_deps\"/></value></block></next></block></statement></block></next></block></xml>"
+  }
+}

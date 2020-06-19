@@ -1,0 +1,59 @@
+{
+  "_fv": 8,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "konon_head",
+    "enableBody": true,
+    "textureBody": "konon_body",
+    "enableLeggings": true,
+    "textureLeggings": "konon_leggings",
+    "enableBoots": true,
+    "textureBoots": "konon_boots",
+    "onHelmetTick": {
+      "name": "KononArmorHelmetTickEvent"
+    },
+    "onBodyTick": {
+      "name": "KononArmorBodyTickEvent"
+    },
+    "onLeggingsTick": {
+      "name": "KononArmorLeggingsTickEvent"
+    },
+    "onBootsTick": {
+      "name": "KononArmorBootsTickEvent"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:Szkolna17Mod"
+    },
+    "armorTextureFile": "konon__",
+    "helmetName": "Czo³ówka Górnika",
+    "bodyName": "Sweter Prezydencki",
+    "leggingsName": "Obszczane Nachy",
+    "bootsName": "Gumioki",
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 20,
+    "damageValueHelmet": 1,
+    "damageValueBody": 2,
+    "damageValueLeggings": 2,
+    "damageValueBoots": 2,
+    "enchantability": 20,
+    "toughness": 0.0,
+    "equipSound": {
+      "value": "entity.pig.ambient"
+    },
+    "repairItems": []
+  }
+}

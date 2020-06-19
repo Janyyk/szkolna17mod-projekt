@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "szkolna17:blocks/azbest2",
+    "up": "szkolna17:blocks/azbest2",
+    "north": "szkolna17:blocks/azbest2",
+    "east": "szkolna17:blocks/azbest2",
+    "south": "szkolna17:blocks/azbest2",
+    "west": "szkolna17:blocks/azbest2",
+    "particle": "szkolna17:blocks/azbest2"
+  }
+}

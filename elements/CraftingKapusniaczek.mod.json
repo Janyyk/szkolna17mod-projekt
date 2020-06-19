@@ -1,0 +1,46 @@
+{
+  "_fv": 8,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.POTATO"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:LiscKapusty"
+      },
+      {
+        "value": "Items.BOWL"
+      },
+      {
+        "value": "CUSTOM:LiscKapusty"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Kapusniaczek"
+    },
+    "name": "crafting_kapusniaczek",
+    "namespace": "mod"
+  }
+}

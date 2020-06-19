@@ -1,0 +1,42 @@
+{
+  "group": "szkolna17",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "szkolna17:kal"
+    },
+    "1": {
+      "item": "szkolna17:kal"
+    },
+    "2": {
+      "item": "szkolna17:kal"
+    },
+    "3": {
+      "item": "szkolna17:kal"
+    },
+    "4": {
+      "item": "szkolna17:kal"
+    },
+    "5": {
+      "item": "szkolna17:kal"
+    },
+    "6": {
+      "item": "szkolna17:kal"
+    },
+    "7": {
+      "item": "szkolna17:kal"
+    },
+    "8": {
+      "item": "szkolna17:kal"
+    }
+  },
+  "result": {
+    "item": "szkolna17:blok_kalu",
+    "count": 1
+  }
+}

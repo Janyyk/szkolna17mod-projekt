@@ -1,0 +1,19 @@
+{
+  "_fv": 8,
+  "_type": "fluid",
+  "definition": {
+    "name": "NitroCiecz",
+    "textureStill": "nitro_still_final",
+    "textureFlowing": "nitro_flow_final",
+    "luminosity": 0,
+    "density": 1000,
+    "viscosity": 500,
+    "isGas": false,
+    "type": "WATER",
+    "generateBucket": true,
+    "creativeTab": {
+      "value": "CUSTOM:Szkolna17Mod"
+    },
+    "spawnWorldTypes": []
+  }
+}

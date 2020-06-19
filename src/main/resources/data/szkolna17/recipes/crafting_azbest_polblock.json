@@ -1,0 +1,22 @@
+{
+  "group": "szkolna17",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "szkolna17:blok_azbestu"
+    },
+    "1": {
+      "item": "szkolna17:blok_azbestu"
+    },
+    "2": {
+      "item": "szkolna17:blok_azbestu"
+    }
+  },
+  "result": {
+    "item": "szkolna17:azbest_polblock",
+    "count": 6
+  }
+}

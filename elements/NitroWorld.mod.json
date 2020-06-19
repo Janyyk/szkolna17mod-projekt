@@ -1,0 +1,47 @@
+{
+  "_fv": 8,
+  "_type": "dimension",
+  "definition": {
+    "portalFrame": {
+      "value": "Blocks.SLIME_BLOCK"
+    },
+    "portalParticles": {
+      "value": "PORTAL"
+    },
+    "portalLuminance": 0.0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Nitro World Portal Igniter",
+    "igniterTab": {
+      "value": "CUSTOM:Szkolna17Mod"
+    },
+    "texture": "szkolna_item_08",
+    "portalTexture": "nitro_still_final",
+    "enablePortal": true,
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:NitroBiom"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:NitroBlock"
+    },
+    "fluidBlock": {
+      "value": "CUSTOM:NitroCiecz"
+    },
+    "airColor": {
+      "value": -6684775,
+      "falpha": 0.0
+    },
+    "canRespawnHere": false,
+    "hasFog": true,
+    "hasWeather": true,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "BED_EXPLODES",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false
+  }
+}

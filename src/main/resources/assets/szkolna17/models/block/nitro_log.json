@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "szkolna17:blocks/b",
+    "up": "szkolna17:blocks/a",
+    "north": "szkolna17:blocks/a",
+    "east": "szkolna17:blocks/a",
+    "south": "szkolna17:blocks/a",
+    "west": "szkolna17:blocks/a",
+    "particle": "szkolna17:blocks/b"
+  }
+}

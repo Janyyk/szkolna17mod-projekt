@@ -1,0 +1,20 @@
+modLoader="javafml"
+loaderVersion="[31,)"
+
+[[mods]]
+modId="szkolna17"
+version="1.0.0"
+displayName="Szkolna 17 Mod"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://mcreator.net"
+authors="janek, MCreator"
+
+[[dependencies.szkolna17]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+

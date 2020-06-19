@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "szkolna17:blocks/szkolna_item_07",
+    "particle": "szkolna17:blocks/szkolna_item_07"
+  }
+}

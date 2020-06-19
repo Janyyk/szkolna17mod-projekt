@@ -1,0 +1,26 @@
+{
+  "_fv": 8,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "maczetkaboza",
+    "customModelName": "Normal",
+    "name": "Maczeta Boza",
+    "specialInfo": [
+      "Zostaniesz ukrucony o g³owê"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:Szkolna17Mod"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 3,
+    "efficiency": 5.0,
+    "attackSpeed": 1.8,
+    "enchantability": 10,
+    "damageVsEntity": 8.0,
+    "usageCount": 250,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": []
+  }
+}

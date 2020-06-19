@@ -1,0 +1,33 @@
+{
+  "group": "szkolna17",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "szkolna17:blok_azbestu"
+    },
+    "3": {
+      "item": "szkolna17:blok_azbestu"
+    },
+    "4": {
+      "item": "szkolna17:blok_azbestu"
+    },
+    "6": {
+      "item": "szkolna17:blok_azbestu"
+    },
+    "7": {
+      "item": "szkolna17:blok_azbestu"
+    },
+    "8": {
+      "item": "szkolna17:blok_azbestu"
+    }
+  },
+  "result": {
+    "item": "szkolna17:azbest_schody",
+    "count": 4
+  }
+}

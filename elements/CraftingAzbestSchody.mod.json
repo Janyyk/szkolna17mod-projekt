@@ -1,0 +1,46 @@
+{
+  "_fv": 8,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BlokAzbestu"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BlokAzbestu"
+      },
+      {
+        "value": "CUSTOM:BlokAzbestu"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BlokAzbestu"
+      },
+      {
+        "value": "CUSTOM:BlokAzbestu"
+      },
+      {
+        "value": "CUSTOM:BlokAzbestu"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AzbestSchody"
+    },
+    "name": "crafting_azbest_schody",
+    "namespace": "mod"
+  }
+}
