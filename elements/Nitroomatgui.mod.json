@@ -1,0 +1,59 @@
+{
+  "_fv": 8,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:NitroWypite"
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "name": "Slot #0",
+          "x": 300,
+          "y": 96
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 1,
+          "disableStackInteraction": false,
+          "name": "Slot #1",
+          "x": 390,
+          "y": 132
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:NitroBlock"
+          },
+          "id": 2,
+          "disableStackInteraction": false,
+          "name": "Slot #2",
+          "x": 300,
+          "y": 168
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "wytwórz",
+          "width": 140,
+          "height": 40,
+          "name": "wytwórz",
+          "x": 444,
+          "y": 186
+        }
+      }
+    ]
+  }
+}

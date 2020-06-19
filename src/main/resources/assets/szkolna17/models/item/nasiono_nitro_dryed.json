@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "szkolna17:items/nitro_seed_dryed"
+  }
+}

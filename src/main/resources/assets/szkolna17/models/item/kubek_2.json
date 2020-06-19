@@ -1,0 +1,7 @@
+{
+  "parent": "szkolna17:custom/kubekremastered",
+  "textures": {
+    "1": "szkolna17:blocks/azbestblok2",
+    "missing": "szkolna17:blocks/azbestblok2"
+  }
+}

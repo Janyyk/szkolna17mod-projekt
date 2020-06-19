@@ -662,6 +662,77 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "nitro_fruit"
+    },
+    {
+      "name": "Nitroomatgui",
+      "type": "gui",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nitroomatgui"
+    },
+    {
+      "name": "NitroCreating",
+      "type": "keybind",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nitro_creating"
+    },
+    {
+      "name": "Kubek2",
+      "type": "item",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kubek_2"
+    },
+    {
+      "name": "Wyciskacz",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wyciskacz"
+    },
+    {
+      "name": "NasionoNitro",
+      "type": "food",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nasiono_nitro"
+    },
+    {
+      "name": "NasionoNitroZjedzenie",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nasiono_nitro_zjedzenie",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NasionoNitroDryed",
+      "type": "item",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nasiono_nitro_dryed"
     }
   ],
   "variable_elements": [],
@@ -669,10 +740,12 @@
   "language_map": {
     "en_us": {
       "item.szkolna__mod_20.konon_armorhelmet": "Czo³ówka Górnika",
+      "block.szkolna17.wyciskacz": "Wyciskacz",
       "item.szkolna__mod_20.nitro_landia": "Nitro Landia Portal Igniter",
       "block.szkolna__mod_20.kapusta": "Kapusta",
       "item.szkolna17.karton": "Karton",
       "item.szkolna17.kal": "Ka³",
+      "item.szkolna17.kubek_2": "Kubek 2",
       "item.szkolna__mod_20.karton": "Karton",
       "item.szkolna17.nitro_world": "Nitro World Portal Igniter",
       "item.szkolna17.konon_armorlegs": "Obszczane Nachy",
@@ -686,12 +759,14 @@
       "item.szkolna17.nitro": "Nitro",
       "item.szkolna__mod_20.kal": "Ka³",
       "advancements.twoje_pierwsze_nitro.title": "Twoje Pierwsze Nitro",
+      "item.szkolna17.nasiono_nitro_dryed": "Wyciœniête Nasiono Nitro",
       "item.szkolna17.kabab": "Kabab",
       "item.szkolna__mod_20.zubr": "¯ubr",
       "fluid.mocz_ciecz": "MoczCiecz",
       "item.szkolna17.kubek": "Kubek",
       "block.szkolna17.nitro_fruit": "Nitro Fruit",
       "advancements.bombaski_kucharz.title": "Bombaski Kucharz",
+      "key.mcreator.nitro_creating": "Nitro Creating",
       "item.szkolna__mod_20.nitro": "Nitro",
       "advancements.problemy_ze_zwieraczami.descr": "Zesra³eœ siê w majtki",
       "block.szkolna__mod_20.azbest_ore": "Ruda Azbestu",
@@ -724,6 +799,7 @@
       "item.szkolna__mod_20.kapusniaczek": "Kapusniaczek",
       "item.szkolna17.mocz_ciecz_bucket": "MoczCiecz Bucket",
       "item.szkolna__mod_20.konon_armorbody": "Sweter Prezydencki",
+      "item.szkolna17.nasiono_nitro": "Nasiono Nitro",
       "item.szkolna__mod_20.konon_armorlegs": "Obszczane Nachy",
       "item.szkolna17.azbest": "Azbest",
       "advancements.problemy_ze_zwieraczami.title": "Problemy Ze Zwieraczami",

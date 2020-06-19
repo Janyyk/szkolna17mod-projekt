@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "szkolna17:block/wyciskacz"
+    },
+    "facing=east": {
+      "model": "szkolna17:block/wyciskacz",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "szkolna17:block/wyciskacz",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "szkolna17:block/wyciskacz",
+      "y": 270
+    }
+  }
+}

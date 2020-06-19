@@ -1,0 +1,9 @@
+{
+  "_fv": 8,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "NUMPAD6",
+    "keyBindingName": "Nitro Creating",
+    "keyBindingCategoryKey": "misc"
+  }
+}

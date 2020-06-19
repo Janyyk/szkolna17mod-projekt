@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "azbestblok2",
+        "missing": "azbestblok2"
+      },
+      "name": "default"
+    }
+  }
+}

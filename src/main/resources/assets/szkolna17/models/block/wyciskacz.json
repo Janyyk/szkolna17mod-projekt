@@ -1,0 +1,16 @@
+{
+  "parent": "szkolna17:custom/wyciskasz",
+  "textures": {
+    "all": "szkolna17:blocks/smooth_stone",
+    "particle": "szkolna17:blocks/smooth_stone",
+    "1": "szkolna17:blocks/glass",
+    "2": "szkolna17:blocks/furnace_side",
+    "3": "szkolna17:blocks/furnace_top",
+    "4": "szkolna17:blocks/smooth_stone",
+    "5": "szkolna17:blocks/red_concrete",
+    "6": "szkolna17:blocks/light_gray_concrete",
+    "7": "szkolna17:blocks/iron_block",
+    "8": "szkolna17:blocks/oak_planks",
+    "missing": "szkolna17:blocks/oak_planks"
+  }
+}
