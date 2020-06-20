@@ -1,6 +1,11 @@
 {
-  "parent": "item/handheld",
+  "parent": "szkolna17:custom/maczeta",
   "textures": {
-    "layer0": "szkolna17:items/maczetkaboza"
+    "0": "szkolna17:blocks/maczeta_darker",
+    "1": "szkolna17:blocks/maczeta_lighter",
+    "2": "szkolna17:blocks/oak_planks",
+    "3": "szkolna17:blocks/oak_log",
+    "4": "szkolna17:blocks/oak_log_top",
+    "missing": "szkolna17:blocks/smooth_stone"
   }
 }

@@ -2,7 +2,7 @@
   "parent": "block/cube",
   "textures": {
     "down": "szkolna17:blocks/b",
-    "up": "szkolna17:blocks/a",
+    "up": "szkolna17:blocks/b",
     "north": "szkolna17:blocks/a",
     "east": "szkolna17:blocks/a",
     "south": "szkolna17:blocks/a",

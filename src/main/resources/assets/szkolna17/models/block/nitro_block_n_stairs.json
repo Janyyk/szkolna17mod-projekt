@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "szkolna17:blocks/nitroblock",
+    "top": "szkolna17:blocks/nitroblock",
+    "side": "szkolna17:blocks/nitroblock"
+  }
+}

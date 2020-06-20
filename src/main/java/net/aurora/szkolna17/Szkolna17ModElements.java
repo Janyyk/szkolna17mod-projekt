@@ -51,6 +51,8 @@ public class Szkolna17ModElements {
 	public final List<Supplier<EntityType<?>>> entities = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 	public Szkolna17ModElements() {
+		sounds.put(new ResourceLocation("szkolna17", "major_pijanysiemchuwarteto"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("szkolna17", "major_pijanysiemchuwarteto")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("szkolna17").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

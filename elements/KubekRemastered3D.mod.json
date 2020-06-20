@@ -1,0 +1,36 @@
+{
+  "_fv": 8,
+  "_type": "gun",
+  "definition": {
+    "renderType": 1,
+    "texture": "kubek",
+    "customModelName": "kubekremastered:default",
+    "name": "Kubek",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Szkolna17Mod"
+    },
+    "stackSize": 32,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 100,
+    "actionSound": {
+      "value": "entity.splash_potion.break"
+    },
+    "hasGlow": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 1.0,
+    "bulletDamage": 5.0,
+    "bulletKnockback": 5,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:Kubek"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}

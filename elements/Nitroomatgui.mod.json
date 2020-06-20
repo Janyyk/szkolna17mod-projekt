@@ -4,54 +4,91 @@
   "definition": {
     "type": 1,
     "width": 352,
-    "height": 332,
+    "height": 433,
     "renderBgLayer": true,
     "components": [
       {
         "type": "inputslot",
         "data": {
           "inputLimit": {
-            "value": "CUSTOM:NitroWypite"
+            "value": ""
           },
-          "id": 0,
+          "id": 2,
           "disableStackInteraction": false,
-          "name": "Slot #0",
+          "name": "Slot #2",
           "x": 300,
-          "y": 96
+          "y": 132
         }
       },
       {
         "type": "outputslot",
         "data": {
-          "id": 1,
+          "id": 3,
           "disableStackInteraction": false,
-          "name": "Slot #1",
-          "x": 390,
+          "name": "Slot #3",
+          "x": 516,
+          "y": 78
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 4,
+          "disableStackInteraction": false,
+          "name": "Slot #4",
+          "x": 516,
           "y": 132
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": ".60crush.png",
+          "name": ".60crush.png",
+          "x": 356,
+          "y": 105
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrow.png",
+          "name": "arrow.png",
+          "x": 437,
+          "y": 108
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Wyciœnij",
+          "width": 160,
+          "height": 40,
+          "name": "Wyciœnij",
+          "x": 348,
+          "y": 181
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "text3.png",
+          "name": "text3.png",
+          "x": 334,
+          "y": 1
         }
       },
       {
         "type": "inputslot",
         "data": {
           "inputLimit": {
-            "value": "CUSTOM:NitroBlock"
+            "value": ""
           },
-          "id": 2,
+          "id": 1,
           "disableStackInteraction": false,
-          "name": "Slot #2",
+          "name": "Slot #1",
           "x": 300,
-          "y": 168
-        }
-      },
-      {
-        "type": "button",
-        "data": {
-          "text": "wytwórz",
-          "width": 140,
-          "height": 40,
-          "name": "wytwórz",
-          "x": 444,
-          "y": 186
+          "y": 78
         }
       }
     ]

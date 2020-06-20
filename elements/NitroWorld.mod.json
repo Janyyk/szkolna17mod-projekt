@@ -3,7 +3,7 @@
   "_type": "dimension",
   "definition": {
     "portalFrame": {
-      "value": "Blocks.SLIME_BLOCK"
+      "value": "CUSTOM:NitroBlockPortal"
     },
     "portalParticles": {
       "value": "PORTAL"
@@ -16,7 +16,7 @@
     "igniterTab": {
       "value": "CUSTOM:Szkolna17Mod"
     },
-    "texture": "szkolna_item_08",
+    "texture": "azbest",
     "portalTexture": "nitro_still_final",
     "enablePortal": true,
     "biomesInDimension": [
@@ -42,6 +42,9 @@
     "doesWaterVaporize": false,
     "sleepResult": "BED_EXPLODES",
     "hasSkyLight": false,
-    "imitateOverworldBehaviour": false
+    "imitateOverworldBehaviour": false,
+    "onPlayerEntersDimension": {
+      "name": "NitroLadniaWjescieDzwiek"
+    }
   }
 }

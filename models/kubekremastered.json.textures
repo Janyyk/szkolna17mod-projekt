@@ -2,8 +2,12 @@
   "mappings": {
     "default": {
       "map": {
-        "1": "azbestblok2",
-        "missing": "azbestblok2"
+        "0": "quartz_pillar_top",
+        "1": "orange_terracotta",
+        "2": "quartz_pillar",
+        "3": "quartz_block_side",
+        "4": "quartz_block_bottom",
+        "missing": ""
       },
       "name": "default"
     }

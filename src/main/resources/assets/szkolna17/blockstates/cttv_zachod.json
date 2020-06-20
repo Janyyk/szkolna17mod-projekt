@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "szkolna17:block/cttv_zachod"
+    },
+    "facing=east": {
+      "model": "szkolna17:block/cttv_zachod",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "szkolna17:block/cttv_zachod",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "szkolna17:block/cttv_zachod",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "szkolna17:block/cttv_zachod",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "szkolna17:block/cttv_zachod",
+      "x": 90
+    }
+  }
+}

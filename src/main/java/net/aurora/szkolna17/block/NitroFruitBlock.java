@@ -12,8 +12,8 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.aurora.szkolna17.itemgroup.Szkolna17ModItemGroup;
-import net.aurora.szkolna17.item.NitroItem;
+import net.aurora.szkolna17.itemgroup.Szkolna17blocksItemGroup;
+import net.aurora.szkolna17.item.NasionoNitroItem;
 import net.aurora.szkolna17.Szkolna17ModElements;
 
 import java.util.List;
@@ -31,7 +31,7 @@ public class NitroFruitBlock extends Szkolna17ModElements.ModElement {
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
 		elements.items
-				.add(() -> new BlockItem(block, new Item.Properties().group(Szkolna17ModItemGroup.tab)).setRegistryName(block.getRegistryName()));
+				.add(() -> new BlockItem(block, new Item.Properties().group(Szkolna17blocksItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
@@ -44,7 +44,7 @@ public class NitroFruitBlock extends Szkolna17ModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(NitroItem.block, (int) (1)));
+			return Collections.singletonList(new ItemStack(NasionoNitroItem.block, (int) (3)));
 		}
 	}
 }

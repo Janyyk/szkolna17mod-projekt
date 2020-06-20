@@ -2,15 +2,19 @@
   "mappings": {
     "default": {
       "map": {
+        "11": "green_glazed_terracotta",
+        "12": "green_concrete_powder",
         "1": "glass",
         "2": "furnace_side",
         "3": "furnace_top",
-        "4": "smooth_stone",
+        "4": "smooth_stone_wyciskacz",
         "5": "red_concrete",
         "6": "light_gray_concrete",
         "7": "iron_block",
+        "missing": "oak_planks",
         "8": "oak_planks",
-        "missing": "oak_planks"
+        "9": "green_concrete",
+        "10": "green_wool"
       },
       "name": "default"
     }

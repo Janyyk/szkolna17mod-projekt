@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "szkolna17:block/nitro_block_nslab"
+    },
+    "type=top": {
+      "model": "szkolna17:block/nitro_block_nslab_top"
+    },
+    "type=double": {
+      "model": "szkolna17:block/nitro_block_nslab_full"
+    }
+  }
+}

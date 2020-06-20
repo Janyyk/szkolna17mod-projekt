@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "iron_trapdoor",
+        "2": "iron_block",
+        "5": "black_wool",
+        "6": "black_shulker_box",
+        "7": "oak_planks",
+        "missing": "smooth_stone",
+        "8": "red_wool"
+      },
+      "name": "default"
+    }
+  }
+}

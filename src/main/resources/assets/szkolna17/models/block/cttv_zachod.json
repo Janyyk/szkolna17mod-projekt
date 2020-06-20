@@ -1,0 +1,14 @@
+{
+  "parent": "szkolna17:custom/cctv-faceing-zachod-remaster",
+  "textures": {
+    "all": "szkolna17:blocks/smooth_stone_wyciskacz",
+    "particle": "szkolna17:blocks/smooth_stone_wyciskacz",
+    "1": "szkolna17:blocks/iron_trapdoor",
+    "2": "szkolna17:blocks/iron_block",
+    "5": "szkolna17:blocks/black_wool",
+    "6": "szkolna17:blocks/black_shulker_box",
+    "7": "szkolna17:blocks/oak_planks",
+    "missing": "szkolna17:blocks/smooth_stone",
+    "8": "szkolna17:blocks/red_wool"
+  }
+}

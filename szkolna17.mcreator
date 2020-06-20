@@ -35,7 +35,7 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "szkolna_1_7_mod"
+      "registry_name": "szkolna17items"
     },
     {
       "name": "WypicieMleka",
@@ -733,16 +733,185 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "nasiono_nitro_dryed"
+    },
+    {
+      "name": "OtwarcieNitroWyciskaczGUI",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "otwarcie_nitro_wyciskacz_gui",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NitroLadniaWjescieDzwiek",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nitro_ladnia_wjescie_dzwiek",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WyciskaczRecipe",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wyciskacz_recipe"
+    },
+    {
+      "name": "CraftingNitro",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crafting_nitro"
+    },
+    {
+      "name": "CraftingButelkaNitro",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crafting_butelka_nitro"
+    },
+    {
+      "name": "NitroBlockN",
+      "type": "block",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nitro_block_n"
+    },
+    {
+      "name": "KubekRemastered3D",
+      "type": "gun",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kubek_remastered_3_d"
+    },
+    {
+      "name": "CTTVZachod",
+      "type": "block",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cttv_zachod"
+    },
+    {
+      "name": "NitroBlockNStairs",
+      "type": "block",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nitro_block_n_stairs"
+    },
+    {
+      "name": "NitroBlockNslab",
+      "type": "block",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nitro_block_nslab"
+    },
+    {
+      "name": "Szkolna17blocks",
+      "type": "tab",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "szkolna_1_7blocks"
+    },
+    {
+      "name": "RaspberryBlock",
+      "type": "block",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raspberry_block"
+    },
+    {
+      "name": "NitroBlockPortal",
+      "type": "block",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nitro_block_portal"
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "major_pijanysiemchuwarteto",
+      "file": "major_japijanyocholera_smiechuwarteto",
+      "category": "ambient"
+    }
+  ],
   "language_map": {
     "en_us": {
       "item.szkolna__mod_20.konon_armorhelmet": "Czo³ówka Górnika",
       "block.szkolna17.wyciskacz": "Wyciskacz",
       "item.szkolna__mod_20.nitro_landia": "Nitro Landia Portal Igniter",
+      "block.szkolna17.cttv_zachod": "CTTV Zachod",
       "block.szkolna__mod_20.kapusta": "Kapusta",
+      "item.szkolna17.kubek_remastered_3_d": "Kubek",
       "item.szkolna17.karton": "Karton",
       "item.szkolna17.kal": "Ka³",
       "item.szkolna17.kubek_2": "Kubek 2",
@@ -751,9 +920,11 @@
       "item.szkolna17.konon_armorlegs": "Obszczane Nachy",
       "item.szkolna17.konon_armorbody": "Sweter Prezydencki",
       "block.szkolna__mod_20.azbest_schody": "Azbestowe Schody",
+      "itemGroup.tabszkolna17items": "Szkolna 17 Mod - Przedmioty",
       "block.szkolna__mod_20.azbest_polblock": "Azbestowa P³yta",
       "item.szkolna17.nitro_wypite": "Butelka Nitro",
       "item.szkolna17.maczeta_boza": "Maczeta Boza",
+      "itemGroup.tabszkolna_1_7blocks": "Szkolna 17 Mod - Bloki",
       "item.szkolna17.lisc_kapusty": "Lisc Kapusty",
       "item.szkolna__mod_20.maczeta_boza": "Maczeta Boza",
       "item.szkolna17.nitro": "Nitro",
@@ -773,9 +944,13 @@
       "fluid.nitro_ciecz": "NitroCiecz",
       "block.szkolna17.kapusta": "Kapusta",
       "item.szkolna17.nitro_ciecz_bucket": "NitroCiecz Bucket",
+      "block.szkolna17.nitro_block_portal": "Blok Portalu Œwiata Nitro",
       "item.szkolna__mod_20.kabab": "Kabab",
+      "block.szkolna17.nitro_block_n_stairs": "Schody Budowli Œwiata Nitro",
+      "block.szkolna17.raspberry_block": "¯elatynowy Blok Barszczu",
       "item.szkolna__mod_20.mleko": "Mleko",
       "block.szkolna17.nitro_log": "Nitrowe Drewno",
+      "block.szkolna17.nitro_block_n": "Blok Budowli Œwiata Nitro",
       "item.szkolna__mod_20.azbest": "Azbest",
       "item.szkolna__mod_20.nitro_wypite": "Butelka Nitro",
       "block.szkolna__mod_20.blok_azbestu": "Blok Azbestu",
@@ -785,6 +960,7 @@
       "item.szkolna__mod_20.lisc_kapusty": "Lisc Kapusty",
       "item.szkolna17.konon_armorboots": "Gumioki",
       "block.szkolna17.blok_azbestu": "Blok Azbestu",
+      "block.szkolna17.nitro_block_nslab": "P³yta Budowli Œwiata Nitro",
       "item.szkolna__mod_20.kubek": "Kubek",
       "item.szkolna17.konon_armorhelmet": "Czo³ówka Górnika",
       "item.szkolna__mod_20.mocz_ciecz_bucket": "MoczCiecz Bucket",
@@ -792,7 +968,6 @@
       "item.szkolna17.mleko": "Mleko",
       "advancements.twoje_pierwsze_nitro.descr": "Wyprawa na wiewiórki udana",
       "item.szkolna__mod_20.kapusniaczek_z_kababem": "Kapusniaczek Z Kababem",
-      "itemGroup.tabszkolna_1_7_mod": "Szkolna 17",
       "item.szkolna17.zubr": "¯ubr",
       "block.szkolna17.azbest_polblock": "Azbestowa P³yta",
       "item.szkolna__mod_20.nitro_ciecz_bucket": "NitroCiecz Bucket",

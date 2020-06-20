@@ -34,8 +34,6 @@ import net.minecraft.client.gui.screen.inventory.ContainerScreen;
 import net.minecraft.client.gui.ScreenManager;
 import net.minecraft.client.Minecraft;
 
-import net.aurora.szkolna17.item.NitroWypiteItem;
-import net.aurora.szkolna17.block.NitroBlockBlock;
 import net.aurora.szkolna17.Szkolna17ModElements;
 import net.aurora.szkolna17.Szkolna17Mod;
 
@@ -83,7 +81,7 @@ public class NitroomatguiGui extends Szkolna17ModElements.ModElement {
 			super(containerType, id);
 			this.entity = inv.player;
 			this.world = inv.player.world;
-			this.internal = new ItemStackHandler(3);
+			this.internal = new ItemStackHandler(5);
 			BlockPos pos = null;
 			if (extraData != null) {
 				pos = extraData.readBlockPos();
@@ -113,31 +111,29 @@ public class NitroomatguiGui extends Szkolna17ModElements.ModElement {
 					}
 				}
 			}
-			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 25, 12) {
-				@Override
-				public boolean isItemValid(ItemStack stack) {
-					return (new ItemStack(NitroWypiteItem.block, (int) (1)).getItem() == stack.getItem());
-				}
+			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 25, 55) {
 			}));
-			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 70, 30) {
+			this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 133, 28) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
 				}
 			}));
-			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 25, 48) {
+			this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 133, 55) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
-					return (new ItemStack(NitroBlockBlock.block, (int) (1)).getItem() == stack.getItem());
+					return false;
 				}
+			}));
+			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 25, 28) {
 			}));
 			int si;
 			int sj;
 			for (si = 0; si < 3; ++si)
 				for (sj = 0; sj < 9; ++sj)
-					this.addSlot(new Slot(inv, sj + (si + 1) * 9, 0 + 8 + sj * 18, 0 + 84 + si * 18));
+					this.addSlot(new Slot(inv, sj + (si + 1) * 9, 0 + 8 + sj * 18, 26 + 84 + si * 18));
 			for (si = 0; si < 9; ++si)
-				this.addSlot(new Slot(inv, si, 0 + 8 + si * 18, 0 + 142));
+				this.addSlot(new Slot(inv, si, 0 + 8 + si * 18, 26 + 142));
 		}
 
 		public Map<Integer, Slot> get() {
@@ -156,18 +152,18 @@ public class NitroomatguiGui extends Szkolna17ModElements.ModElement {
 			if (slot != null && slot.getHasStack()) {
 				ItemStack itemstack1 = slot.getStack();
 				itemstack = itemstack1.copy();
-				if (index < 3) {
-					if (!this.mergeItemStack(itemstack1, 3, this.inventorySlots.size(), true)) {
+				if (index < 4) {
+					if (!this.mergeItemStack(itemstack1, 4, this.inventorySlots.size(), true)) {
 						return ItemStack.EMPTY;
 					}
 					slot.onSlotChange(itemstack1, itemstack);
-				} else if (!this.mergeItemStack(itemstack1, 0, 3, false)) {
-					if (index < 3 + 27) {
-						if (!this.mergeItemStack(itemstack1, 3 + 27, this.inventorySlots.size(), true)) {
+				} else if (!this.mergeItemStack(itemstack1, 0, 4, false)) {
+					if (index < 4 + 27) {
+						if (!this.mergeItemStack(itemstack1, 4 + 27, this.inventorySlots.size(), true)) {
 							return ItemStack.EMPTY;
 						}
 					} else {
-						if (!this.mergeItemStack(itemstack1, 3, 3 + 27, false)) {
+						if (!this.mergeItemStack(itemstack1, 4, 4 + 27, false)) {
 							return ItemStack.EMPTY;
 						}
 					}
@@ -305,7 +301,7 @@ public class NitroomatguiGui extends Szkolna17ModElements.ModElement {
 			this.z = container.z;
 			this.entity = container.entity;
 			this.xSize = 176;
-			this.ySize = 166;
+			this.ySize = 217;
 		}
 		private static final ResourceLocation texture = new ResourceLocation("szkolna17:textures/nitroomatgui.png");
 		@Override
@@ -322,6 +318,12 @@ public class NitroomatguiGui extends Szkolna17ModElements.ModElement {
 			int k = (this.width - this.xSize) / 2;
 			int l = (this.height - this.ySize) / 2;
 			this.blit(k, l, 0, 0, this.xSize, this.ySize);
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("szkolna17:textures/.60crush.png"));
+			this.blit(this.guiLeft + 53, this.guiTop + 41, 0, 0, 256, 256);
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("szkolna17:textures/arrow.png"));
+			this.blit(this.guiLeft + 93, this.guiTop + 43, 0, 0, 256, 256);
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("szkolna17:textures/text3.png"));
+			this.blit(this.guiLeft + 42, this.guiTop + -11, 0, 0, 256, 256);
 		}
 
 		@Override
@@ -343,7 +345,7 @@ public class NitroomatguiGui extends Szkolna17ModElements.ModElement {
 		public void init(Minecraft minecraft, int width, int height) {
 			super.init(minecraft, width, height);
 			minecraft.keyboardListener.enableRepeatEvents(true);
-			this.addButton(new Button(this.guiLeft + 97, this.guiTop + 56, 70, 20, "wytwórz", e -> {
+			this.addButton(new Button(this.guiLeft + 49, this.guiTop + 79, 80, 20, "Wyciœnij", e -> {
 				Szkolna17Mod.PACKET_HANDLER.sendToServer(new ButtonPressedMessage(0, x, y, z));
 				handleButtonAction(entity, 0, x, y, z);
 			}));

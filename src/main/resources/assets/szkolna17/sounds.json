@@ -1,1 +1,11 @@
-{}
+{
+  "major_pijanysiemchuwarteto": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "szkolna17:major_japijanyocholera_smiechuwarteto",
+        "stream": false
+      }
+    ]
+  }
+}
