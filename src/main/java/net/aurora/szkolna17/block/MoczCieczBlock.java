@@ -36,7 +36,7 @@ public class MoczCieczBlock extends Szkolna17ModElements.ModElement {
 	private FlowingFluid still = null;
 	private ForgeFlowingFluid.Properties fluidproperties = null;
 	public MoczCieczBlock(Szkolna17ModElements instance) {
-		super(instance, 32);
+		super(instance, 14);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

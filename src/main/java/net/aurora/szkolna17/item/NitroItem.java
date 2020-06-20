@@ -11,7 +11,7 @@ import net.minecraft.item.Food;
 import net.minecraft.entity.LivingEntity;
 
 import net.aurora.szkolna17.procedures.WypicieNitraProcedure;
-import net.aurora.szkolna17.itemgroup.Szkolna17ModItemGroup;
+import net.aurora.szkolna17.itemgroup.Szkolna17itemsItemGroup;
 import net.aurora.szkolna17.Szkolna17ModElements;
 
 @Szkolna17ModElements.ModElement.Tag
@@ -19,7 +19,7 @@ public class NitroItem extends Szkolna17ModElements.ModElement {
 	@ObjectHolder("szkolna17:nitro")
 	public static final Item block = null;
 	public NitroItem(Szkolna17ModElements instance) {
-		super(instance, 24);
+		super(instance, 7);
 	}
 
 	@Override
@@ -28,7 +28,7 @@ public class NitroItem extends Szkolna17ModElements.ModElement {
 	}
 	public static class FoodItemCustom extends Item {
 		public FoodItemCustom() {
-			super(new Item.Properties().group(Szkolna17ModItemGroup.tab).maxStackSize(64)
+			super(new Item.Properties().group(Szkolna17itemsItemGroup.tab).maxStackSize(64)
 					.food((new Food.Builder()).hunger(1).saturation(0.1f).setAlwaysEdible().build()));
 			setRegistryName("nitro");
 		}

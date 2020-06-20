@@ -21,7 +21,7 @@ import net.aurora.szkolna17.procedures.KononArmorLeggingsTickEventProcedure;
 import net.aurora.szkolna17.procedures.KononArmorHelmetTickEventProcedure;
 import net.aurora.szkolna17.procedures.KononArmorBootsTickEventProcedure;
 import net.aurora.szkolna17.procedures.KononArmorBodyTickEventProcedure;
-import net.aurora.szkolna17.itemgroup.Szkolna17ModItemGroup;
+import net.aurora.szkolna17.itemgroup.Szkolna17ubraniaItemGroup;
 import net.aurora.szkolna17.Szkolna17ModElements;
 
 @Szkolna17ModElements.ModElement.Tag
@@ -35,7 +35,7 @@ public class KononArmorItem extends Szkolna17ModElements.ModElement {
 	@ObjectHolder("szkolna17:konon_armorboots")
 	public static final Item boots = null;
 	public KononArmorItem(Szkolna17ModElements instance) {
-		super(instance, 12);
+		super(instance, 4);
 	}
 
 	@Override
@@ -70,7 +70,7 @@ public class KononArmorItem extends Szkolna17ModElements.ModElement {
 				return 0f;
 			}
 		};
-		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(Szkolna17ModItemGroup.tab)) {
+		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(Szkolna17ubraniaItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "szkolna17:textures/models/armor/konon___layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
@@ -89,7 +89,7 @@ public class KononArmorItem extends Szkolna17ModElements.ModElement {
 				}
 			}
 		}.setRegistryName("konon_armorhelmet"));
-		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(Szkolna17ModItemGroup.tab)) {
+		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(Szkolna17ubraniaItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "szkolna17:textures/models/armor/konon___layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
@@ -107,7 +107,7 @@ public class KononArmorItem extends Szkolna17ModElements.ModElement {
 				}
 			}
 		}.setRegistryName("konon_armorbody"));
-		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(Szkolna17ModItemGroup.tab)) {
+		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(Szkolna17ubraniaItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "szkolna17:textures/models/armor/konon___layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
@@ -125,7 +125,7 @@ public class KononArmorItem extends Szkolna17ModElements.ModElement {
 				}
 			}
 		}.setRegistryName("konon_armorlegs"));
-		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(Szkolna17ModItemGroup.tab)) {
+		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(Szkolna17ubraniaItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "szkolna17:textures/models/armor/konon___layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";

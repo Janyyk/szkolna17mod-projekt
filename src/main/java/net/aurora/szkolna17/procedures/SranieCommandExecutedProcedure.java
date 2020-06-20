@@ -26,7 +26,7 @@ import java.util.Iterator;
 @Szkolna17ModElements.ModElement.Tag
 public class SranieCommandExecutedProcedure extends Szkolna17ModElements.ModElement {
 	public SranieCommandExecutedProcedure(Szkolna17ModElements instance) {
-		super(instance, 32);
+		super(instance, 61);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

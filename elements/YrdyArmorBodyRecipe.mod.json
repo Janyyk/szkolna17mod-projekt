@@ -1,0 +1,46 @@
+{
+  "_fv": 8,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:YrdyGem"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:YrdyGem"
+      },
+      {
+        "value": "CUSTOM:YrdyGem"
+      },
+      {
+        "value": "CUSTOM:YrdyGem"
+      },
+      {
+        "value": "CUSTOM:YrdyGem"
+      },
+      {
+        "value": "CUSTOM:YrdyGem"
+      },
+      {
+        "value": "CUSTOM:YrdyGem"
+      },
+      {
+        "value": "CUSTOM:YrdyGem"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:YrdyArmor.body"
+    },
+    "name": "yrdy_armor_body_recipe",
+    "namespace": "mod"
+  }
+}

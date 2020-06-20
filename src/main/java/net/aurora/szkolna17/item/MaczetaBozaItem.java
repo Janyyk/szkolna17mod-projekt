@@ -24,7 +24,7 @@ public class MaczetaBozaItem extends Szkolna17ModElements.ModElement {
 	@ObjectHolder("szkolna17:maczeta_boza")
 	public static final Item block = null;
 	public MaczetaBozaItem(Szkolna17ModElements instance) {
-		super(instance, 39);
+		super(instance, 16);
 	}
 
 	@Override

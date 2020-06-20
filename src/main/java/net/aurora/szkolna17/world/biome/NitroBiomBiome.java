@@ -49,7 +49,7 @@ public class NitroBiomBiome extends Szkolna17ModElements.ModElement {
 	@ObjectHolder("szkolna17:nitro_biom")
 	public static final CustomBiome biome = null;
 	public NitroBiomBiome(Szkolna17ModElements instance) {
-		super(instance, 40);
+		super(instance, 68);
 	}
 
 	@Override

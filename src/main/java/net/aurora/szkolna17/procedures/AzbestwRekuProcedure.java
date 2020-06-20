@@ -10,7 +10,7 @@ import net.aurora.szkolna17.Szkolna17ModElements;
 @Szkolna17ModElements.ModElement.Tag
 public class AzbestwRekuProcedure extends Szkolna17ModElements.ModElement {
 	public AzbestwRekuProcedure(Szkolna17ModElements instance) {
-		super(instance, 10);
+		super(instance, 42);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

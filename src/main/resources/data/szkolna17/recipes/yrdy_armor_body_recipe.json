@@ -1,0 +1,39 @@
+{
+  "group": "szkolna17",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "szkolna17:yrdy_gem"
+    },
+    "2": {
+      "item": "szkolna17:yrdy_gem"
+    },
+    "3": {
+      "item": "szkolna17:yrdy_gem"
+    },
+    "4": {
+      "item": "szkolna17:yrdy_gem"
+    },
+    "5": {
+      "item": "szkolna17:yrdy_gem"
+    },
+    "6": {
+      "item": "szkolna17:yrdy_gem"
+    },
+    "7": {
+      "item": "szkolna17:yrdy_gem"
+    },
+    "8": {
+      "item": "szkolna17:yrdy_gem"
+    }
+  },
+  "result": {
+    "item": "szkolna17:yrdy_armorbody",
+    "count": 1
+  }
+}

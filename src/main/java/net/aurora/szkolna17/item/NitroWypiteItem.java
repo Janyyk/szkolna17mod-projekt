@@ -7,7 +7,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
-import net.aurora.szkolna17.itemgroup.Szkolna17ModItemGroup;
+import net.aurora.szkolna17.itemgroup.Szkolna17itemsItemGroup;
 import net.aurora.szkolna17.Szkolna17ModElements;
 
 @Szkolna17ModElements.ModElement.Tag
@@ -15,7 +15,7 @@ public class NitroWypiteItem extends Szkolna17ModElements.ModElement {
 	@ObjectHolder("szkolna17:nitro_wypite")
 	public static final Item block = null;
 	public NitroWypiteItem(Szkolna17ModElements instance) {
-		super(instance, 25);
+		super(instance, 9);
 	}
 
 	@Override
@@ -24,7 +24,7 @@ public class NitroWypiteItem extends Szkolna17ModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(Szkolna17ModItemGroup.tab).maxStackSize(64));
+			super(new Item.Properties().group(Szkolna17itemsItemGroup.tab).maxStackSize(64));
 			setRegistryName("nitro_wypite");
 		}
 

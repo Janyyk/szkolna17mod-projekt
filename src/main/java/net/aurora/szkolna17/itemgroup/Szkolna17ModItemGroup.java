@@ -13,7 +13,7 @@ import net.aurora.szkolna17.Szkolna17ModElements;
 @Szkolna17ModElements.ModElement.Tag
 public class Szkolna17ModItemGroup extends Szkolna17ModElements.ModElement {
 	public Szkolna17ModItemGroup(Szkolna17ModElements instance) {
-		super(instance, 4);
+		super(instance, 38);
 	}
 
 	@Override

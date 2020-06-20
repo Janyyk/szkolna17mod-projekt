@@ -22,7 +22,7 @@
     {
       "name": "CraftingMleko",
       "type": "recipe",
-      "sortid": 3,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -31,7 +31,7 @@
     {
       "name": "Szkolna17Mod",
       "type": "tab",
-      "sortid": 4,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -40,7 +40,7 @@
     {
       "name": "WypicieMleka",
       "type": "procedure",
-      "sortid": 5,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -57,7 +57,7 @@
     {
       "name": "Opal",
       "type": "fuel",
-      "sortid": 6,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -66,7 +66,7 @@
     {
       "name": "Azbest",
       "type": "item",
-      "sortid": 7,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -75,7 +75,7 @@
     {
       "name": "BlokAzbestu",
       "type": "block",
-      "sortid": 8,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -84,7 +84,7 @@
     {
       "name": "AzbestWykopanie",
       "type": "procedure",
-      "sortid": 9,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -101,7 +101,7 @@
     {
       "name": "AzbestwReku",
       "type": "procedure",
-      "sortid": 10,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -118,7 +118,7 @@
     {
       "name": "CraftingBlokAzbestu",
       "type": "recipe",
-      "sortid": 11,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -127,7 +127,7 @@
     {
       "name": "KononArmorHelmetTickEvent",
       "type": "procedure",
-      "sortid": 12,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -144,7 +144,7 @@
     {
       "name": "KononArmorBodyTickEvent",
       "type": "procedure",
-      "sortid": 13,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -161,7 +161,7 @@
     {
       "name": "KononArmorLeggingsTickEvent",
       "type": "procedure",
-      "sortid": 14,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -178,7 +178,7 @@
     {
       "name": "KononArmorBootsTickEvent",
       "type": "procedure",
-      "sortid": 15,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -195,7 +195,7 @@
     {
       "name": "KononArmor",
       "type": "armor",
-      "sortid": 12,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -210,7 +210,7 @@
     {
       "name": "AzbestOre",
       "type": "block",
-      "sortid": 16,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -219,7 +219,7 @@
     {
       "name": "CraftingKarton",
       "type": "recipe",
-      "sortid": 17,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -228,7 +228,7 @@
     {
       "name": "CraftingAzbest",
       "type": "recipe",
-      "sortid": 18,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -237,7 +237,7 @@
     {
       "name": "AzbestPolblock",
       "type": "block",
-      "sortid": 19,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -246,7 +246,7 @@
     {
       "name": "CraftingAzbestPolblock",
       "type": "recipe",
-      "sortid": 20,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -255,7 +255,7 @@
     {
       "name": "CraftingAzbesPolblockSecond",
       "type": "recipe",
-      "sortid": 21,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -264,7 +264,7 @@
     {
       "name": "KubekBulletHitsBlock",
       "type": "procedure",
-      "sortid": 22,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -293,7 +293,7 @@
     {
       "name": "Kubek",
       "type": "gun",
-      "sortid": 22,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -302,7 +302,7 @@
     {
       "name": "CraftingKubek",
       "type": "recipe",
-      "sortid": 23,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -311,7 +311,7 @@
     {
       "name": "CraftingAzbestSchody",
       "type": "recipe",
-      "sortid": 23,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -320,7 +320,7 @@
     {
       "name": "AzbestSchody",
       "type": "block",
-      "sortid": 22,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -329,7 +329,7 @@
     {
       "name": "CraftingKapusniaczek",
       "type": "recipe",
-      "sortid": 28,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -338,7 +338,7 @@
     {
       "name": "Kabab",
       "type": "food",
-      "sortid": 25,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -347,7 +347,7 @@
     {
       "name": "KapusniaczekZKababem",
       "type": "food",
-      "sortid": 29,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -356,7 +356,7 @@
     {
       "name": "CraftingKabab",
       "type": "recipe",
-      "sortid": 26,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -365,7 +365,7 @@
     {
       "name": "Kapusniaczek",
       "type": "food",
-      "sortid": 27,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -374,7 +374,7 @@
     {
       "name": "CraftingKapusniaczekZKababem",
       "type": "recipe",
-      "sortid": 30,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -383,7 +383,7 @@
     {
       "name": "Kapusta",
       "type": "plant",
-      "sortid": 24,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -392,7 +392,7 @@
     {
       "name": "WypicieNitra",
       "type": "procedure",
-      "sortid": 26,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -425,7 +425,7 @@
     {
       "name": "Nitro",
       "type": "food",
-      "sortid": 24,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -434,7 +434,7 @@
     {
       "name": "NitroWypite",
       "type": "item",
-      "sortid": 25,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -443,7 +443,7 @@
     {
       "name": "OplanieAzbestem",
       "type": "procedure",
-      "sortid": 25,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -455,7 +455,7 @@
     {
       "name": "AzbestOpalanie",
       "type": "fuel",
-      "sortid": 24,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -464,7 +464,7 @@
     {
       "name": "Zubr",
       "type": "food",
-      "sortid": 33,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -473,7 +473,7 @@
     {
       "name": "SranieCommandExecuted",
       "type": "procedure",
-      "sortid": 32,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -506,7 +506,7 @@
     {
       "name": "ZubrFoodEaten",
       "type": "procedure",
-      "sortid": 33,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -523,7 +523,7 @@
     {
       "name": "Kal",
       "type": "item",
-      "sortid": 31,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -532,7 +532,7 @@
     {
       "name": "Sranie",
       "type": "command",
-      "sortid": 32,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -541,7 +541,7 @@
     {
       "name": "TwojePierwszeNitro",
       "type": "achievement",
-      "sortid": 34,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -550,7 +550,7 @@
     {
       "name": "ProblemyZeZwieraczami",
       "type": "achievement",
-      "sortid": 35,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -559,7 +559,7 @@
     {
       "name": "NitroCiecz",
       "type": "fluid",
-      "sortid": 31,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -568,7 +568,7 @@
     {
       "name": "MoczCiecz",
       "type": "fluid",
-      "sortid": 32,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -586,7 +586,7 @@
     {
       "name": "KapusniaczekZKababemItemIsCraftedsmelted",
       "type": "procedure",
-      "sortid": 38,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -603,7 +603,7 @@
     {
       "name": "BombaskiKucharz",
       "type": "achievement",
-      "sortid": 37,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -612,7 +612,7 @@
     {
       "name": "MaczetaBoza",
       "type": "tool",
-      "sortid": 39,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -621,7 +621,7 @@
     {
       "name": "NitroBlock",
       "type": "block",
-      "sortid": 40,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -630,7 +630,7 @@
     {
       "name": "NitroBiom",
       "type": "biome",
-      "sortid": 40,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -639,7 +639,7 @@
     {
       "name": "NitroWorld",
       "type": "dimension",
-      "sortid": 41,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -648,7 +648,7 @@
     {
       "name": "NitroLog",
       "type": "block",
-      "sortid": 42,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -657,7 +657,7 @@
     {
       "name": "NitroFruit",
       "type": "block",
-      "sortid": 43,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -666,7 +666,7 @@
     {
       "name": "Nitroomatgui",
       "type": "gui",
-      "sortid": 44,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -675,7 +675,7 @@
     {
       "name": "NitroCreating",
       "type": "keybind",
-      "sortid": 45,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -684,7 +684,7 @@
     {
       "name": "Kubek2",
       "type": "item",
-      "sortid": 46,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -693,7 +693,7 @@
     {
       "name": "Wyciskacz",
       "type": "block",
-      "sortid": 47,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -702,7 +702,7 @@
     {
       "name": "NasionoNitro",
       "type": "food",
-      "sortid": 48,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -711,7 +711,7 @@
     {
       "name": "NasionoNitroZjedzenie",
       "type": "procedure",
-      "sortid": 49,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -728,7 +728,7 @@
     {
       "name": "NasionoNitroDryed",
       "type": "item",
-      "sortid": 50,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -737,7 +737,7 @@
     {
       "name": "OtwarcieNitroWyciskaczGUI",
       "type": "procedure",
-      "sortid": 51,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -770,7 +770,7 @@
     {
       "name": "NitroLadniaWjescieDzwiek",
       "type": "procedure",
-      "sortid": 52,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -799,7 +799,7 @@
     {
       "name": "WyciskaczRecipe",
       "type": "recipe",
-      "sortid": 53,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -808,7 +808,7 @@
     {
       "name": "CraftingNitro",
       "type": "recipe",
-      "sortid": 54,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -817,7 +817,7 @@
     {
       "name": "CraftingButelkaNitro",
       "type": "recipe",
-      "sortid": 55,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -826,7 +826,7 @@
     {
       "name": "NitroBlockN",
       "type": "block",
-      "sortid": 56,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -835,7 +835,7 @@
     {
       "name": "KubekRemastered3D",
       "type": "gun",
-      "sortid": 57,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -844,7 +844,7 @@
     {
       "name": "CTTVZachod",
       "type": "block",
-      "sortid": 58,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -853,7 +853,7 @@
     {
       "name": "NitroBlockNStairs",
       "type": "block",
-      "sortid": 59,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -862,7 +862,7 @@
     {
       "name": "NitroBlockNslab",
       "type": "block",
-      "sortid": 60,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -871,7 +871,7 @@
     {
       "name": "Szkolna17blocks",
       "type": "tab",
-      "sortid": 61,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -880,7 +880,7 @@
     {
       "name": "RaspberryBlock",
       "type": "block",
-      "sortid": 62,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -889,11 +889,188 @@
     {
       "name": "NitroBlockPortal",
       "type": "block",
-      "sortid": 63,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "nitro_block_portal"
+    },
+    {
+      "name": "YrdyOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yrdy_ore_block_recipe"
+    },
+    {
+      "name": "YrdyBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yrdy_block_ore_recipe"
+    },
+    {
+      "name": "YrdyOreSmelting",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yrdy_ore_smelting"
+    },
+    {
+      "name": "YrdyPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yrdy_pickaxe_recipe"
+    },
+    {
+      "name": "YrdyAxeRecipe",
+      "type": "recipe",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yrdy_axe_recipe"
+    },
+    {
+      "name": "YrdySwordRecipe",
+      "type": "recipe",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yrdy_sword_recipe"
+    },
+    {
+      "name": "YrdyShovelRecipe",
+      "type": "recipe",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yrdy_shovel_recipe"
+    },
+    {
+      "name": "YrdyHoeRecipe",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yrdy_hoe_recipe"
+    },
+    {
+      "name": "YrdyArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yrdy_armor_helmet_recipe"
+    },
+    {
+      "name": "YrdyArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yrdy_armor_body_recipe"
+    },
+    {
+      "name": "YrdyArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yrdy_armor_leggings_recipe"
+    },
+    {
+      "name": "YrdyArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yrdy_armor_boots_recipe"
+    },
+    {
+      "name": "AzbestArmorArmor",
+      "type": "armor",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "azbest_armor_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "AzbestArmorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "azbest_armor_armor_helmet_recipe"
+    },
+    {
+      "name": "AzbestArmorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "azbest_armor_armor_body_recipe"
+    },
+    {
+      "name": "AzbestArmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "azbest_armor_armor_leggings_recipe"
+    },
+    {
+      "name": "AzbestArmorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "azbest_armor_armor_boots_recipe"
+    },
+    {
+      "name": "Szkolna17ubrania",
+      "type": "tab",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "szkolna_1_7ubrania"
+    },
+    {
+      "name": "Szkolna17items",
+      "type": "tab",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "szkolna_1_7items"
     }
   ],
   "variable_elements": [],
@@ -910,19 +1087,24 @@
       "block.szkolna17.wyciskacz": "Wyciskacz",
       "item.szkolna__mod_20.nitro_landia": "Nitro Landia Portal Igniter",
       "block.szkolna17.cttv_zachod": "CTTV Zachod",
-      "block.szkolna__mod_20.kapusta": "Kapusta",
       "item.szkolna17.kubek_remastered_3_d": "Kubek",
-      "item.szkolna17.karton": "Karton",
-      "item.szkolna17.kal": "Ka³",
+      "block.szkolna__mod_20.kapusta": "Kapusta",
       "item.szkolna17.kubek_2": "Kubek 2",
+      "item.szkolna17.kal": "Ka³",
+      "item.szkolna17.karton": "Karton",
       "item.szkolna__mod_20.karton": "Karton",
       "item.szkolna17.nitro_world": "Nitro World Portal Igniter",
+      "item.szkolna17.azbest_armor_armorlegs": "AzbestArmor Leggings",
       "item.szkolna17.konon_armorlegs": "Obszczane Nachy",
+      "itemGroup.tabszkolna_1_7items": "Szkolna 17 Mod - Przedmioty \u0026 Jedzenie",
       "item.szkolna17.konon_armorbody": "Sweter Prezydencki",
+      "item.szkolna17.azbest_armor_armorbody": "AzbestArmor Chestplate",
       "block.szkolna__mod_20.azbest_schody": "Azbestowe Schody",
       "itemGroup.tabszkolna17items": "Szkolna 17 Mod - Przedmioty",
       "block.szkolna__mod_20.azbest_polblock": "Azbestowa P³yta",
       "item.szkolna17.nitro_wypite": "Butelka Nitro",
+      "item.szkolna17.azbest_armor_armorhelmet": "AzbestArmor Helmet",
+      "itemGroup.tabszkolna_1_7ubrania": "Szkolna 1 7ubrania",
       "item.szkolna17.maczeta_boza": "Maczeta Boza",
       "itemGroup.tabszkolna_1_7blocks": "Szkolna 17 Mod - Bloki",
       "item.szkolna17.lisc_kapusty": "Lisc Kapusty",
@@ -950,6 +1132,7 @@
       "block.szkolna17.raspberry_block": "¯elatynowy Blok Barszczu",
       "item.szkolna__mod_20.mleko": "Mleko",
       "block.szkolna17.nitro_log": "Nitrowe Drewno",
+      "item.szkolna17.azbest_armor_armorboots": "AzbestArmor Boots",
       "block.szkolna17.nitro_block_n": "Blok Budowli Œwiata Nitro",
       "item.szkolna__mod_20.azbest": "Azbest",
       "item.szkolna__mod_20.nitro_wypite": "Butelka Nitro",

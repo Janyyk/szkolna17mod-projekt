@@ -24,7 +24,7 @@ public class NitroFruitBlock extends Szkolna17ModElements.ModElement {
 	@ObjectHolder("szkolna17:nitro_fruit")
 	public static final Block block = null;
 	public NitroFruitBlock(Szkolna17ModElements instance) {
-		super(instance, 43);
+		super(instance, 32);
 	}
 
 	@Override

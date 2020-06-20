@@ -1,0 +1,39 @@
+{
+  "group": "szkolna17",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "szkolna17:azbest"
+    },
+    "2": {
+      "item": "szkolna17:azbest"
+    },
+    "3": {
+      "item": "szkolna17:azbest"
+    },
+    "4": {
+      "item": "szkolna17:azbest"
+    },
+    "5": {
+      "item": "szkolna17:azbest"
+    },
+    "6": {
+      "item": "szkolna17:azbest"
+    },
+    "7": {
+      "item": "szkolna17:azbest"
+    },
+    "8": {
+      "item": "szkolna17:azbest"
+    }
+  },
+  "result": {
+    "item": "szkolna17:azbest_armor_armorbody",
+    "count": 1
+  }
+}

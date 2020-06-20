@@ -44,7 +44,7 @@ public class KubekRemastered3DItem extends Szkolna17ModElements.ModElement {
 	@ObjectHolder("szkolna17:entitybulletkubek_remastered_3_d")
 	public static final EntityType arrow = null;
 	public KubekRemastered3DItem(Szkolna17ModElements instance) {
-		super(instance, 57);
+		super(instance, 21);
 	}
 
 	@Override

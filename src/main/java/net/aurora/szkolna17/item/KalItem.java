@@ -11,7 +11,7 @@ import net.minecraft.item.Item;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.block.BlockState;
 
-import net.aurora.szkolna17.itemgroup.Szkolna17ModItemGroup;
+import net.aurora.szkolna17.itemgroup.Szkolna17itemsItemGroup;
 import net.aurora.szkolna17.Szkolna17ModElements;
 
 import java.util.List;
@@ -21,7 +21,7 @@ public class KalItem extends Szkolna17ModElements.ModElement {
 	@ObjectHolder("szkolna17:kal")
 	public static final Item block = null;
 	public KalItem(Szkolna17ModElements instance) {
-		super(instance, 31);
+		super(instance, 12);
 	}
 
 	@Override
@@ -30,7 +30,7 @@ public class KalItem extends Szkolna17ModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(Szkolna17ModItemGroup.tab).maxStackSize(64));
+			super(new Item.Properties().group(Szkolna17itemsItemGroup.tab).maxStackSize(64));
 			setRegistryName("kal");
 		}
 

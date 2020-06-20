@@ -30,7 +30,7 @@ public class BlokAzbestuBlock extends Szkolna17ModElements.ModElement {
 	@ObjectHolder("szkolna17:blok_azbestu")
 	public static final Block block = null;
 	public BlokAzbestuBlock(Szkolna17ModElements instance) {
-		super(instance, 8);
+		super(instance, 22);
 	}
 
 	@Override

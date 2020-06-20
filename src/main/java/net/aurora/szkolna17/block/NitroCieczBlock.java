@@ -36,7 +36,7 @@ public class NitroCieczBlock extends Szkolna17ModElements.ModElement {
 	private FlowingFluid still = null;
 	private ForgeFlowingFluid.Properties fluidproperties = null;
 	public NitroCieczBlock(Szkolna17ModElements instance) {
-		super(instance, 31);
+		super(instance, 13);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

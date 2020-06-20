@@ -1,0 +1,12 @@
+{
+  "group": "szkolna17",
+  "type": "minecraft:smelting",
+  "experience": 0.7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "szkolna17:yrdy_ore"
+  },
+  "result": {
+    "item": "szkolna17:yrdy_gem"
+  }
+}

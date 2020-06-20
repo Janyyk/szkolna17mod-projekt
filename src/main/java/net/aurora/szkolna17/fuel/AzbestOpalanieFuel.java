@@ -13,7 +13,7 @@ import net.aurora.szkolna17.Szkolna17ModElements;
 @Szkolna17ModElements.ModElement.Tag
 public class AzbestOpalanieFuel extends Szkolna17ModElements.ModElement {
 	public AzbestOpalanieFuel(Szkolna17ModElements instance) {
-		super(instance, 24);
+		super(instance, 60);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

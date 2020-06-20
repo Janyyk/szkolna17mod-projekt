@@ -10,7 +10,7 @@
     "textureBack": "",
     "renderType": 2,
     "customModelName": "cctv-faceing-zachod-remaster:default",
-    "rotationMode": 4,
+    "rotationMode": 1,
     "hasTransparency": true,
     "connectedSides": false,
     "transparencyType": "SOLID",

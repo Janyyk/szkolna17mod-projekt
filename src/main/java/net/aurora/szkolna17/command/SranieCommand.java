@@ -21,7 +21,7 @@ import com.mojang.brigadier.arguments.StringArgumentType;
 @Szkolna17ModElements.ModElement.Tag
 public class SranieCommand extends Szkolna17ModElements.ModElement {
 	public SranieCommand(Szkolna17ModElements instance) {
-		super(instance, 32);
+		super(instance, 63);
 	}
 
 	@Override

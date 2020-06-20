@@ -7,6 +7,9 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.storage.loot.LootContext;
+import net.minecraft.world.IBlockReader;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.Direction;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
@@ -28,7 +31,7 @@ public class NitroBlockPortalBlock extends Szkolna17ModElements.ModElement {
 	@ObjectHolder("szkolna17:nitro_block_portal")
 	public static final Block block = null;
 	public NitroBlockPortalBlock(Szkolna17ModElements instance) {
-		super(instance, 63);
+		super(instance, 30);
 	}
 
 	@Override
@@ -45,8 +48,18 @@ public class NitroBlockPortalBlock extends Szkolna17ModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.GLASS).hardnessAndResistance(15f, 10f).lightValue(0));
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.GLASS).hardnessAndResistance(15f, 10f).lightValue(0).notSolid());
 			setRegistryName("nitro_block_portal");
+		}
+
+		@Override
+		public boolean isNormalCube(BlockState state, IBlockReader worldIn, BlockPos pos) {
+			return false;
+		}
+
+		@OnlyIn(Dist.CLIENT)
+		public boolean isSideInvisible(BlockState state, BlockState adjacentBlockState, Direction side) {
+			return adjacentBlockState.getBlock() == this ? true : super.isSideInvisible(state, adjacentBlockState, side);
 		}
 
 		@Override

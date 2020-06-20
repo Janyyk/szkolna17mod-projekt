@@ -109,7 +109,7 @@ public class NitroWorldDimension extends Szkolna17ModElements.ModElement {
 	public static DimensionType type = null;
 	private static Biome[] dimensionBiomes;
 	public NitroWorldDimension(Szkolna17ModElements instance) {
-		super(instance, 41);
+		super(instance, 17);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}

@@ -13,7 +13,7 @@ import net.aurora.szkolna17.Szkolna17ModElements;
 @Szkolna17ModElements.ModElement.Tag
 public class OpalFuel extends Szkolna17ModElements.ModElement {
 	public OpalFuel(Szkolna17ModElements instance) {
-		super(instance, 6);
+		super(instance, 40);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

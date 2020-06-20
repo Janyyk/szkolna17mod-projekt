@@ -43,7 +43,7 @@ public class RaspberryBlockBlock extends Szkolna17ModElements.ModElement {
 	@ObjectHolder("szkolna17:raspberry_block")
 	public static final Block block = null;
 	public RaspberryBlockBlock(Szkolna17ModElements instance) {
-		super(instance, 62);
+		super(instance, 29);
 	}
 
 	@Override

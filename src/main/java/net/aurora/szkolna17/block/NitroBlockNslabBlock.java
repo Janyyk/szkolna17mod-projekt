@@ -25,7 +25,7 @@ public class NitroBlockNslabBlock extends Szkolna17ModElements.ModElement {
 	@ObjectHolder("szkolna17:nitro_block_nslab")
 	public static final Block block = null;
 	public NitroBlockNslabBlock(Szkolna17ModElements instance) {
-		super(instance, 60);
+		super(instance, 35);
 	}
 
 	@Override

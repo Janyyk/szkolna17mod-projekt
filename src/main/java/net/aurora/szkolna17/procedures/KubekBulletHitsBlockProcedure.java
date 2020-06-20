@@ -12,7 +12,7 @@ import net.aurora.szkolna17.Szkolna17ModElements;
 @Szkolna17ModElements.ModElement.Tag
 public class KubekBulletHitsBlockProcedure extends Szkolna17ModElements.ModElement {
 	public KubekBulletHitsBlockProcedure(Szkolna17ModElements instance) {
-		super(instance, 22);
+		super(instance, 52);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

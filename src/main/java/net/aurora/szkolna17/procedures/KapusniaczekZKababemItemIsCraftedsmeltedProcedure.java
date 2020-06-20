@@ -14,7 +14,7 @@ import java.util.Iterator;
 @Szkolna17ModElements.ModElement.Tag
 public class KapusniaczekZKababemItemIsCraftedsmeltedProcedure extends Szkolna17ModElements.ModElement {
 	public KapusniaczekZKababemItemIsCraftedsmeltedProcedure(Szkolna17ModElements instance) {
-		super(instance, 38);
+		super(instance, 66);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

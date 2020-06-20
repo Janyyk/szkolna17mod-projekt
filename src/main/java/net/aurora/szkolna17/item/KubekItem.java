@@ -56,7 +56,7 @@ public class KubekItem extends Szkolna17ModElements.ModElement {
 	@ObjectHolder("szkolna17:entitybulletkubek")
 	public static final EntityType arrow = null;
 	public KubekItem(Szkolna17ModElements instance) {
-		super(instance, 22);
+		super(instance, 5);
 	}
 
 	@Override

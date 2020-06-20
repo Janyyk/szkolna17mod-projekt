@@ -19,7 +19,7 @@ import net.aurora.szkolna17.Szkolna17ModElements;
 @Szkolna17ModElements.ModElement.Tag
 public class WypicieNitraProcedure extends Szkolna17ModElements.ModElement {
 	public WypicieNitraProcedure(Szkolna17ModElements instance) {
-		super(instance, 26);
+		super(instance, 58);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

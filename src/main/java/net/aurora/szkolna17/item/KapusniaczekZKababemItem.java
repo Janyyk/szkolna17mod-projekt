@@ -14,7 +14,7 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.client.util.ITooltipFlag;
 
 import net.aurora.szkolna17.procedures.KapusniaczekZKababemItemIsCraftedsmeltedProcedure;
-import net.aurora.szkolna17.itemgroup.Szkolna17ModItemGroup;
+import net.aurora.szkolna17.itemgroup.Szkolna17itemsItemGroup;
 import net.aurora.szkolna17.Szkolna17ModElements;
 
 import java.util.List;
@@ -24,7 +24,7 @@ public class KapusniaczekZKababemItem extends Szkolna17ModElements.ModElement {
 	@ObjectHolder("szkolna17:kapusniaczek_z_kababem")
 	public static final Item block = null;
 	public KapusniaczekZKababemItem(Szkolna17ModElements instance) {
-		super(instance, 29);
+		super(instance, 11);
 	}
 
 	@Override
@@ -33,7 +33,7 @@ public class KapusniaczekZKababemItem extends Szkolna17ModElements.ModElement {
 	}
 	public static class FoodItemCustom extends Item {
 		public FoodItemCustom() {
-			super(new Item.Properties().group(Szkolna17ModItemGroup.tab).maxStackSize(64)
+			super(new Item.Properties().group(Szkolna17itemsItemGroup.tab).maxStackSize(64)
 					.food((new Food.Builder()).hunger(18).saturation(10f).build()));
 			setRegistryName("kapusniaczek_z_kababem");
 		}

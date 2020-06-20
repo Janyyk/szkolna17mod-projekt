@@ -10,7 +10,7 @@ import net.minecraft.entity.Entity;
 import net.minecraft.block.BlockState;
 
 import net.aurora.szkolna17.procedures.AzbestwRekuProcedure;
-import net.aurora.szkolna17.itemgroup.Szkolna17ModItemGroup;
+import net.aurora.szkolna17.itemgroup.Szkolna17itemsItemGroup;
 import net.aurora.szkolna17.Szkolna17ModElements;
 
 @Szkolna17ModElements.ModElement.Tag
@@ -18,7 +18,7 @@ public class AzbestItem extends Szkolna17ModElements.ModElement {
 	@ObjectHolder("szkolna17:azbest")
 	public static final Item block = null;
 	public AzbestItem(Szkolna17ModElements instance) {
-		super(instance, 7);
+		super(instance, 3);
 	}
 
 	@Override
@@ -27,7 +27,7 @@ public class AzbestItem extends Szkolna17ModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(Szkolna17ModItemGroup.tab).maxStackSize(64));
+			super(new Item.Properties().group(Szkolna17itemsItemGroup.tab).maxStackSize(64));
 			setRegistryName("azbest");
 		}
 

@@ -13,7 +13,7 @@ import net.aurora.szkolna17.Szkolna17ModElements;
 @Szkolna17ModElements.ModElement.Tag
 public class OplanieAzbestemProcedure extends Szkolna17ModElements.ModElement {
 	public OplanieAzbestemProcedure(Szkolna17ModElements instance) {
-		super(instance, 25);
+		super(instance, 59);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

@@ -22,7 +22,7 @@ import io.netty.buffer.Unpooled;
 @Szkolna17ModElements.ModElement.Tag
 public class OtwarcieNitroWyciskaczGUIProcedure extends Szkolna17ModElements.ModElement {
 	public OtwarcieNitroWyciskaczGUIProcedure(Szkolna17ModElements instance) {
-		super(instance, 51);
+		super(instance, 72);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

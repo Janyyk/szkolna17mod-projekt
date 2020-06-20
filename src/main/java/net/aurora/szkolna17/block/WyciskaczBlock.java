@@ -44,7 +44,7 @@ public class WyciskaczBlock extends Szkolna17ModElements.ModElement {
 	@ObjectHolder("szkolna17:wyciskacz")
 	public static final Block block = null;
 	public WyciskaczBlock(Szkolna17ModElements instance) {
-		super(instance, 47);
+		super(instance, 27);
 	}
 
 	@Override

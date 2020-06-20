@@ -30,7 +30,7 @@ public class AzbestSchodyBlock extends Szkolna17ModElements.ModElement {
 	@ObjectHolder("szkolna17:azbest_schody")
 	public static final Block block = null;
 	public AzbestSchodyBlock(Szkolna17ModElements instance) {
-		super(instance, 22);
+		super(instance, 24);
 	}
 
 	@Override

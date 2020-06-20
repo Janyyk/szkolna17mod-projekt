@@ -41,7 +41,7 @@ public class AzbestOreBlock extends Szkolna17ModElements.ModElement {
 	@ObjectHolder("szkolna17:azbest_ore")
 	public static final Block block = null;
 	public AzbestOreBlock(Szkolna17ModElements instance) {
-		super(instance, 16);
+		super(instance, 25);
 	}
 
 	@Override

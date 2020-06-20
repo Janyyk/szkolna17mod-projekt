@@ -50,7 +50,7 @@ public class KapustaBlock extends Szkolna17ModElements.ModElement {
 	@ObjectHolder("szkolna17:kapusta")
 	public static final Block block = null;
 	public KapustaBlock(Szkolna17ModElements instance) {
-		super(instance, 24);
+		super(instance, 6);
 	}
 
 	@Override

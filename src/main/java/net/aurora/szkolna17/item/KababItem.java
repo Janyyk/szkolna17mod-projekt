@@ -12,7 +12,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.Food;
 import net.minecraft.client.util.ITooltipFlag;
 
-import net.aurora.szkolna17.itemgroup.Szkolna17ModItemGroup;
+import net.aurora.szkolna17.itemgroup.Szkolna17itemsItemGroup;
 import net.aurora.szkolna17.Szkolna17ModElements;
 
 import java.util.List;
@@ -22,7 +22,7 @@ public class KababItem extends Szkolna17ModElements.ModElement {
 	@ObjectHolder("szkolna17:kabab")
 	public static final Item block = null;
 	public KababItem(Szkolna17ModElements instance) {
-		super(instance, 25);
+		super(instance, 8);
 	}
 
 	@Override
@@ -31,7 +31,7 @@ public class KababItem extends Szkolna17ModElements.ModElement {
 	}
 	public static class FoodItemCustom extends Item {
 		public FoodItemCustom() {
-			super(new Item.Properties().group(Szkolna17ModItemGroup.tab).maxStackSize(64)
+			super(new Item.Properties().group(Szkolna17itemsItemGroup.tab).maxStackSize(64)
 					.food((new Food.Builder()).hunger(10).saturation(5f).meat().build()));
 			setRegistryName("kabab");
 		}

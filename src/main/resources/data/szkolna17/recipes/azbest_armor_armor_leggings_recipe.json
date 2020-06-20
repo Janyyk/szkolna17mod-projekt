@@ -1,0 +1,36 @@
+{
+  "group": "szkolna17",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "szkolna17:azbest"
+    },
+    "1": {
+      "item": "szkolna17:azbest"
+    },
+    "2": {
+      "item": "szkolna17:azbest"
+    },
+    "3": {
+      "item": "szkolna17:azbest"
+    },
+    "5": {
+      "item": "szkolna17:azbest"
+    },
+    "6": {
+      "item": "szkolna17:azbest"
+    },
+    "8": {
+      "item": "szkolna17:azbest"
+    }
+  },
+  "result": {
+    "item": "szkolna17:azbest_armor_armorlegs",
+    "count": 1
+  }
+}

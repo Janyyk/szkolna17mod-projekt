@@ -23,7 +23,7 @@ public class NitroCreatingKeyBinding extends Szkolna17ModElements.ModElement {
 	@OnlyIn(Dist.CLIENT)
 	private KeyBinding keys;
 	public NitroCreatingKeyBinding(Szkolna17ModElements instance) {
-		super(instance, 45);
+		super(instance, 70);
 		elements.addNetworkMessage(KeyBindingPressedMessage.class, KeyBindingPressedMessage::buffer, KeyBindingPressedMessage::new,
 				KeyBindingPressedMessage::handler);
 	}

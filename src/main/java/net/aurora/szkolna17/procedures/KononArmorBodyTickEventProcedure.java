@@ -10,7 +10,7 @@ import net.aurora.szkolna17.Szkolna17ModElements;
 @Szkolna17ModElements.ModElement.Tag
 public class KononArmorBodyTickEventProcedure extends Szkolna17ModElements.ModElement {
 	public KononArmorBodyTickEventProcedure(Szkolna17ModElements instance) {
-		super(instance, 13);
+		super(instance, 45);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

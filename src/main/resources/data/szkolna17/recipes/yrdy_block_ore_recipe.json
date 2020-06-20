@@ -1,0 +1,13 @@
+{
+  "group": "szkolna17",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "szkolna17:yrdy_ore_block"
+    }
+  ],
+  "result": {
+    "item": "szkolna17:yrdy_gem",
+    "count": 9
+  }
+}

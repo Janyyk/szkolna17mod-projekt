@@ -11,7 +11,7 @@ import net.minecraft.item.Food;
 import net.minecraft.entity.LivingEntity;
 
 import net.aurora.szkolna17.procedures.NasionoNitroZjedzenieProcedure;
-import net.aurora.szkolna17.itemgroup.Szkolna17ModItemGroup;
+import net.aurora.szkolna17.itemgroup.Szkolna17itemsItemGroup;
 import net.aurora.szkolna17.Szkolna17ModElements;
 
 @Szkolna17ModElements.ModElement.Tag
@@ -19,7 +19,7 @@ public class NasionoNitroItem extends Szkolna17ModElements.ModElement {
 	@ObjectHolder("szkolna17:nasiono_nitro")
 	public static final Item block = null;
 	public NasionoNitroItem(Szkolna17ModElements instance) {
-		super(instance, 48);
+		super(instance, 19);
 	}
 
 	@Override
@@ -28,7 +28,7 @@ public class NasionoNitroItem extends Szkolna17ModElements.ModElement {
 	}
 	public static class FoodItemCustom extends Item {
 		public FoodItemCustom() {
-			super(new Item.Properties().group(Szkolna17ModItemGroup.tab).maxStackSize(64)
+			super(new Item.Properties().group(Szkolna17itemsItemGroup.tab).maxStackSize(64)
 					.food((new Food.Builder()).hunger(0).saturation(0f).setAlwaysEdible().build()));
 			setRegistryName("nasiono_nitro");
 		}
