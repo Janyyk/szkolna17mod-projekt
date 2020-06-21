@@ -1,22 +1,11 @@
 
 package net.aurora.szkolna17.item;
 
-import net.minecraftforge.registries.ObjectHolder;
-
-import net.minecraft.world.World;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.ActionResultType;
-import net.minecraft.item.ItemUseContext;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Item;
-import net.minecraft.entity.player.PlayerEntity;
-
-import net.aurora.szkolna17.world.dimension.NitroWorldDimension;
-import net.aurora.szkolna17.itemgroup.Szkolna17itemsItemGroup;
-
 public class NitroWorldItem extends Item {
+
 	@ObjectHolder("szkolna17:nitro_world")
 	public static final Item block = null;
+
 	public NitroWorldItem() {
 		super(new Item.Properties().group(Szkolna17itemsItemGroup.tab).maxDamage(64));
 	}
@@ -32,6 +21,7 @@ public class NitroWorldItem extends Item {
 		} else {
 			if (world.isAirBlock(pos))
 				NitroWorldDimension.portal.portalSpawn(world, pos);
+
 			itemstack.damageItem(1, entity, c -> c.sendBreakAnimation(context.getHand()));
 			return ActionResultType.SUCCESS;
 		}

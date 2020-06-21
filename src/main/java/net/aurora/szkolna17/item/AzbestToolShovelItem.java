@@ -1,20 +1,12 @@
 
 package net.aurora.szkolna17.item;
 
-import net.minecraftforge.registries.ObjectHolder;
-
-import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.ShovelItem;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.Item;
-import net.minecraft.item.IItemTier;
-
-import net.aurora.szkolna17.Szkolna17ModElements;
-
 @Szkolna17ModElements.ModElement.Tag
 public class AzbestToolShovelItem extends Szkolna17ModElements.ModElement {
+
 	@ObjectHolder("szkolna17:azbest_tool_shovel")
 	public static final Item block = null;
+
 	public AzbestToolShovelItem(Szkolna17ModElements instance) {
 		super(instance, 109);
 	}
@@ -46,6 +38,8 @@ public class AzbestToolShovelItem extends Szkolna17ModElements.ModElement {
 				return Ingredient.EMPTY;
 			}
 		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
+
 		}.setRegistryName("azbest_tool_shovel"));
 	}
+
 }
