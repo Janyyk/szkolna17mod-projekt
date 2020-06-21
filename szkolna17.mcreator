@@ -682,15 +682,6 @@
       "registry_name": "nitro_creating"
     },
     {
-      "name": "Kubek2",
-      "type": "item",
-      "sortid": 18,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "kubek_2"
-    },
-    {
       "name": "Wyciskacz",
       "type": "block",
       "sortid": 27,
@@ -1019,7 +1010,6 @@
       "block.szkolna17.cttv_zachod": "CTTV Zachod",
       "item.szkolna17.kubek_remastered_3_d": "Kubek",
       "block.szkolna__mod_20.kapusta": "Kapusta",
-      "item.szkolna17.kubek_2": "Kubek 2",
       "item.szkolna17.kal": "Ka³",
       "item.szkolna17.karton": "Karton",
       "item.szkolna__mod_20.karton": "Karton",
