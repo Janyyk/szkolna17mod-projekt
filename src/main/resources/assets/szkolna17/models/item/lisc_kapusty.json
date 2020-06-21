@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "szkolna17:items/szkolna_item_07"
+    "layer0": "szkolna17:items/lisckapusty"
   }
 }

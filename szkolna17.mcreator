@@ -896,114 +896,6 @@
       "registry_name": "nitro_block_portal"
     },
     {
-      "name": "YrdyOreBlockRecipe",
-      "type": "recipe",
-      "sortid": 81,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "yrdy_ore_block_recipe"
-    },
-    {
-      "name": "YrdyBlockOreRecipe",
-      "type": "recipe",
-      "sortid": 82,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "yrdy_block_ore_recipe"
-    },
-    {
-      "name": "YrdyOreSmelting",
-      "type": "recipe",
-      "sortid": 83,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "yrdy_ore_smelting"
-    },
-    {
-      "name": "YrdyPickaxeRecipe",
-      "type": "recipe",
-      "sortid": 89,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "yrdy_pickaxe_recipe"
-    },
-    {
-      "name": "YrdyAxeRecipe",
-      "type": "recipe",
-      "sortid": 90,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "yrdy_axe_recipe"
-    },
-    {
-      "name": "YrdySwordRecipe",
-      "type": "recipe",
-      "sortid": 91,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "yrdy_sword_recipe"
-    },
-    {
-      "name": "YrdyShovelRecipe",
-      "type": "recipe",
-      "sortid": 92,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "yrdy_shovel_recipe"
-    },
-    {
-      "name": "YrdyHoeRecipe",
-      "type": "recipe",
-      "sortid": 93,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "yrdy_hoe_recipe"
-    },
-    {
-      "name": "YrdyArmorHelmetRecipe",
-      "type": "recipe",
-      "sortid": 95,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "yrdy_armor_helmet_recipe"
-    },
-    {
-      "name": "YrdyArmorBodyRecipe",
-      "type": "recipe",
-      "sortid": 96,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "yrdy_armor_body_recipe"
-    },
-    {
-      "name": "YrdyArmorLeggingsRecipe",
-      "type": "recipe",
-      "sortid": 97,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "yrdy_armor_leggings_recipe"
-    },
-    {
-      "name": "YrdyArmorBootsRecipe",
-      "type": "recipe",
-      "sortid": 98,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "yrdy_armor_boots_recipe"
-    },
-    {
       "name": "AzbestArmorArmor",
       "type": "armor",
       "sortid": 99,
@@ -1071,6 +963,44 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "szkolna_1_7items"
+    },
+    {
+      "name": "LiscieNitroBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "liscie_nitro_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LiscieNitro",
+      "type": "block",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "liscie_nitro"
     }
   ],
   "variable_elements": [],
@@ -1093,7 +1023,7 @@
       "item.szkolna17.kal": "Ka³",
       "item.szkolna17.karton": "Karton",
       "item.szkolna__mod_20.karton": "Karton",
-      "item.szkolna17.nitro_world": "Nitro World Portal Igniter",
+      "item.szkolna17.nitro_world": "Klucz do œwiata Nitro",
       "item.szkolna17.azbest_armor_armorlegs": "AzbestArmor Leggings",
       "item.szkolna17.konon_armorlegs": "Obszczane Nachy",
       "itemGroup.tabszkolna_1_7items": "Szkolna 17 Mod - Przedmioty \u0026 Jedzenie",
@@ -1120,6 +1050,7 @@
       "block.szkolna17.nitro_fruit": "Nitro Fruit",
       "advancements.bombaski_kucharz.title": "Bombaski Kucharz",
       "key.mcreator.nitro_creating": "Nitro Creating",
+      "block.szkolna17.liscie_nitro": "Liscie Nitro",
       "item.szkolna__mod_20.nitro": "Nitro",
       "advancements.problemy_ze_zwieraczami.descr": "Zesra³eœ siê w majtki",
       "block.szkolna__mod_20.azbest_ore": "Ruda Azbestu",

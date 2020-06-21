@@ -37,7 +37,7 @@ import net.minecraft.block.FlowerBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.aurora.szkolna17.itemgroup.Szkolna17ModItemGroup;
+import net.aurora.szkolna17.itemgroup.Szkolna17itemsItemGroup;
 import net.aurora.szkolna17.item.LiscKapustyItem;
 import net.aurora.szkolna17.Szkolna17ModElements;
 
@@ -57,7 +57,7 @@ public class KapustaBlock extends Szkolna17ModElements.ModElement {
 	public void initElements() {
 		elements.blocks.add(() -> new BlockCustomFlower());
 		elements.items
-				.add(() -> new BlockItem(block, new Item.Properties().group(Szkolna17ModItemGroup.tab)).setRegistryName(block.getRegistryName()));
+				.add(() -> new BlockItem(block, new Item.Properties().group(Szkolna17itemsItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 
 	@Override

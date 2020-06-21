@@ -12,11 +12,11 @@
     "portalSound": {
       "value": "block.portal.ambient"
     },
-    "igniterName": "Nitro World Portal Igniter",
+    "igniterName": "Klucz do œwiata Nitro",
     "igniterTab": {
       "value": "CUSTOM:Szkolna17Mod"
     },
-    "texture": "azbest",
+    "texture": "kluczdoswiatanitro",
     "portalTexture": "nitro_still_final",
     "enablePortal": true,
     "biomesInDimension": [
@@ -39,7 +39,7 @@
     "hasFog": true,
     "hasWeather": true,
     "isDark": false,
-    "doesWaterVaporize": false,
+    "doesWaterVaporize": true,
     "sleepResult": "BED_EXPLODES",
     "hasSkyLight": false,
     "imitateOverworldBehaviour": false,

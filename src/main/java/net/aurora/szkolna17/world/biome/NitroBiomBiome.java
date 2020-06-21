@@ -38,6 +38,7 @@ import net.minecraft.block.Block;
 
 import net.aurora.szkolna17.block.NitroLogBlock;
 import net.aurora.szkolna17.block.NitroFruitBlock;
+import net.aurora.szkolna17.block.LiscieNitroBlock;
 import net.aurora.szkolna17.block.BlokAzbestuBlock;
 import net.aurora.szkolna17.Szkolna17ModElements;
 
@@ -86,7 +87,7 @@ public class NitroBiomBiome extends Szkolna17ModElements.ModElement {
 			addFeature(GenerationStage.Decoration.VEGETAL_DECORATION,
 					new CustomTreeFeature()
 							.withConfiguration((new BaseTreeFeatureConfig.Builder(new SimpleBlockStateProvider(NitroLogBlock.block.getDefaultState()),
-									new SimpleBlockStateProvider(Blocks.OAK_LEAVES.getDefaultState()))).baseHeight(5)
+									new SimpleBlockStateProvider(LiscieNitroBlock.block.getDefaultState()))).baseHeight(5)
 											.setSapling((net.minecraftforge.common.IPlantable) Blocks.JUNGLE_SAPLING).build())
 							.withPlacement(Placement.COUNT_EXTRA_HEIGHTMAP.configure(new AtSurfaceWithExtraConfig(3, 0.1F, 1))));
 			addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Feature.RANDOM_BOOLEAN_SELECTOR
@@ -171,8 +172,8 @@ public class NitroBiomBiome extends Szkolna17ModElements.ModElement {
 										state = world.getBlockState(blockpos);
 										if (state.getBlock().isAir(state, world, blockpos) || state.getMaterial().blocksMovement()
 												|| state.isIn(BlockTags.LEAVES) || state.getBlock() == Blocks.VINE.getDefaultState().getBlock()
-												|| state.getBlock() == Blocks.OAK_LEAVES.getDefaultState().getBlock()) {
-											setTreeBlockState(changedBlocks, world, blockpos, Blocks.OAK_LEAVES.getDefaultState(), bbox);
+												|| state.getBlock() == LiscieNitroBlock.block.getDefaultState().getBlock()) {
+											setTreeBlockState(changedBlocks, world, blockpos, LiscieNitroBlock.block.getDefaultState(), bbox);
 										}
 									}
 								}
@@ -184,7 +185,7 @@ public class NitroBiomBiome extends Szkolna17ModElements.ModElement {
 							setTreeBlockState(changedBlocks, world, genhPos, NitroLogBlock.block.getDefaultState(), bbox);
 							if (state.getBlock().isAir(state, world, genhPos) || state.getMaterial().blocksMovement() || state.isIn(BlockTags.LEAVES)
 									|| state.getBlock() == Blocks.VINE.getDefaultState().getBlock()
-									|| state.getBlock() == Blocks.OAK_LEAVES.getDefaultState().getBlock()) {
+									|| state.getBlock() == LiscieNitroBlock.block.getDefaultState().getBlock()) {
 								if (genh > 0) {
 									if (rand.nextInt(3) > 0 && world.isAirBlock(position.add(-1, genh, 0)))
 										setTreeBlockState(changedBlocks, world, position.add(-1, genh, 0), Blocks.VINE.getDefaultState(), bbox);
@@ -203,7 +204,7 @@ public class NitroBiomBiome extends Szkolna17ModElements.ModElement {
 								for (int genz = position.getZ() - k4; genz <= position.getZ() + k4; genz++) {
 									BlockPos bpos = new BlockPos(genx, genh, genz);
 									state = world.getBlockState(bpos);
-									if (state.isIn(BlockTags.LEAVES) || state.getBlock() == Blocks.OAK_LEAVES.getDefaultState().getBlock()) {
+									if (state.isIn(BlockTags.LEAVES) || state.getBlock() == LiscieNitroBlock.block.getDefaultState().getBlock()) {
 										BlockPos blockpos1 = bpos.south();
 										BlockPos blockpos2 = bpos.west();
 										BlockPos blockpos3 = bpos.east();
@@ -252,7 +253,8 @@ public class NitroBiomBiome extends Szkolna17ModElements.ModElement {
 
 		private boolean canGrowInto(Block blockType) {
 			return blockType.getDefaultState().getMaterial() == Material.AIR || blockType == NitroLogBlock.block.getDefaultState().getBlock()
-					|| blockType == Blocks.OAK_LEAVES.getDefaultState().getBlock() || blockType == Blocks.LIME_TERRACOTTA.getDefaultState().getBlock()
+					|| blockType == LiscieNitroBlock.block.getDefaultState().getBlock()
+					|| blockType == Blocks.LIME_TERRACOTTA.getDefaultState().getBlock()
 					|| blockType == BlokAzbestuBlock.block.getDefaultState().getBlock();
 		}
 

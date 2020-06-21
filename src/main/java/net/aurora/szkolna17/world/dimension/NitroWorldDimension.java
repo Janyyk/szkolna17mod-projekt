@@ -704,7 +704,7 @@ public class NitroWorldDimension extends Szkolna17ModElements.ModElement {
 
 		@Override
 		public boolean doesWaterVaporize() {
-			return false;
+			return true;
 		}
 
 		@Override /**
