@@ -12,13 +12,13 @@ import net.minecraft.item.Item;
 import net.minecraft.entity.player.PlayerEntity;
 
 import net.aurora.szkolna17.world.dimension.NitroWorldDimension;
-import net.aurora.szkolna17.itemgroup.Szkolna17ModItemGroup;
+import net.aurora.szkolna17.itemgroup.Szkolna17itemsItemGroup;
 
 public class NitroWorldItem extends Item {
 	@ObjectHolder("szkolna17:nitro_world")
 	public static final Item block = null;
 	public NitroWorldItem() {
-		super(new Item.Properties().group(Szkolna17ModItemGroup.tab).maxDamage(64));
+		super(new Item.Properties().group(Szkolna17itemsItemGroup.tab).maxDamage(64));
 	}
 
 	@Override

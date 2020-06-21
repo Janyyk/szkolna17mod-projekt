@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "szkolna17:nitro_ciecz"
+    },
+    "title": {
+      "translate": "advancements.osiagniecie_nitro_landia.title"
+    },
+    "description": {
+      "translate": "advancements.osiagniecie_nitro_landia.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "osiagniecie_nitro_landia": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "szkolna17:nitro_world"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 500
+  },
+  "parent": "szkolna17:osiagniecie_pierwsze_nitro"
+}

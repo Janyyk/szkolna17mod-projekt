@@ -10,13 +10,13 @@
     },
     "portalLuminance": 0.0,
     "portalSound": {
-      "value": "block.portal.ambient"
+      "value": ""
     },
     "igniterName": "Nitro World Portal Igniter",
     "igniterTab": {
-      "value": "CUSTOM:Szkolna17Mod"
+      "value": "CUSTOM:Szkolna17items"
     },
-    "texture": "azbest",
+    "texture": "nitroportalaktywator",
     "portalTexture": "nitro_still_final",
     "enablePortal": true,
     "biomesInDimension": [

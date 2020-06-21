@@ -18,6 +18,7 @@ import net.minecraft.world.gen.ChunkGenerator;
 import net.minecraft.world.dimension.DimensionType;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.IWorld;
+import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.item.ItemStack;
@@ -60,8 +61,13 @@ public class RaspberryBlockBlock extends Szkolna17ModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.CLAY).sound(SoundType.field_226947_m_).hardnessAndResistance(1f, 10f).lightValue(0));
+			super(Block.Properties.create(Material.CLAY).sound(SoundType.field_226947_m_).hardnessAndResistance(1f, 10f).lightValue(0).notSolid());
 			setRegistryName("raspberry_block");
+		}
+
+		@Override
+		public boolean isNormalCube(BlockState state, IBlockReader worldIn, BlockPos pos) {
+			return false;
 		}
 
 		@Override

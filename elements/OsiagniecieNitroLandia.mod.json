@@ -1,0 +1,25 @@
+{
+  "_fv": 8,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Nitro Œwiat",
+    "achievementDescription": "Uda³o ci siê dostaæ do raju wiewiórek i paproci!",
+    "achievementIcon": {
+      "value": "CUSTOM:NitroCiecz"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 500,
+    "achievementType": "goal",
+    "parent": {
+      "value": "CUSTOM:OsiagnieciePierwszeNitro"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"dimension_entered\" x=\"56\" y=\"131\"><field name=\"dimension\">CUSTOM:NitroWorld</field><next><block type=\"advancement_trigger\" deletable=\"false\"/></next></block></xml>"
+  }
+}

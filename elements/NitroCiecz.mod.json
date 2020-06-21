@@ -12,7 +12,7 @@
     "type": "WATER",
     "generateBucket": true,
     "creativeTab": {
-      "value": "CUSTOM:Szkolna17Mod"
+      "value": "CUSTOM:Szkolna17items"
     },
     "spawnWorldTypes": []
   }

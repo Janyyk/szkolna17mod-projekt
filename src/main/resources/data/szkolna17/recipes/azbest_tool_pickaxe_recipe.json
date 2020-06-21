@@ -1,0 +1,30 @@
+{
+  "group": "szkolna17",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "szkolna17:azbest"
+    },
+    "1": {
+      "item": "szkolna17:azbest"
+    },
+    "2": {
+      "item": "szkolna17:azbest"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "szkolna17:azbest_tool_pickaxe",
+    "count": 1
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "_fv": 8,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Konsumpcja kapuœniaku bo¿ego",
+    "achievementDescription": "Uda³o ci siê go zjeœæ ogó³em!",
+    "achievementIcon": {
+      "value": "CUSTOM:KapusniaczekZKababem"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 1,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:OsiagnieciePierwszeNitro"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_consumed\" x=\"33\" y=\"25\"><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:Kapusniaczek</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"/></next></block></xml>"
+  }
+}

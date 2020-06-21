@@ -23,7 +23,7 @@ import net.minecraft.block.material.Material;
 import net.minecraft.block.FlowingFluidBlock;
 import net.minecraft.block.Block;
 
-import net.aurora.szkolna17.itemgroup.Szkolna17ModItemGroup;
+import net.aurora.szkolna17.itemgroup.Szkolna17itemsItemGroup;
 import net.aurora.szkolna17.Szkolna17ModElements;
 
 @Szkolna17ModElements.ModElement.Tag
@@ -63,7 +63,7 @@ public class NitroCieczBlock extends Szkolna17ModElements.ModElement {
 		elements.blocks.add(() -> new FlowingFluidBlock(still, Block.Properties.create(Material.WATER)) {
 		}.setRegistryName("nitro_ciecz"));
 		elements.items
-				.add(() -> new BucketItem(still, new Item.Properties().containerItem(Items.BUCKET).maxStackSize(1).group(Szkolna17ModItemGroup.tab))
+				.add(() -> new BucketItem(still, new Item.Properties().containerItem(Items.BUCKET).maxStackSize(1).group(Szkolna17itemsItemGroup.tab))
 						.setRegistryName("nitro_ciecz_bucket"));
 	}
 }

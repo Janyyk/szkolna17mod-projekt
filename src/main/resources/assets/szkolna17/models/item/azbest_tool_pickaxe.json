@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "szkolna17:items/azbesttool_pickaxe"
+  }
+}

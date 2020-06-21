@@ -1,0 +1,31 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "szkolna17:nitro"
+    },
+    "title": {
+      "translate": "advancements.osiagniecie_pierwsze_nitro.title"
+    },
+    "description": {
+      "translate": "advancements.osiagniecie_pierwsze_nitro.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "osiagniecie_pierwsze_nitro": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "szkolna17:nitro"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }
+}
